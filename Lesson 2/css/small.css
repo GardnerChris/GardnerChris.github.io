@@ -13,7 +13,7 @@ body{
 }
 main{
     display: grid;
-    grid-template-columns:repeat(3,1fr);  
+    grid-template-columns:1fr 1fr 1fr;  
     padding:1em 1em 1em 1em; 
     grid-gap:1em;
 }
