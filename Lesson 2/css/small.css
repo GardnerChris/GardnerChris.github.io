@@ -1,0 +1,35 @@
+header, footer{
+    background-color: #242582;
+    color:white;
+    padding:10px;
+    border-radius:8px;
+    font-size: 14px;
+    text-align: center;
+    font-family:"Merriweather", Georgia, serif    
+}
+body{
+    background-color: #DADEDF;
+    margin: 1.25rem auto;
+    max-width: 960px;
+}
+main{
+    display: grid;
+    grid-template-columns:repeat(3 , auto);  
+    justify-content: center;
+    padding:2em; 
+    grid-gap: 15px;
+}
+.white{
+    grid-column: 1/2;
+}
+.hierarchy{
+    grid-column: 5/6;
+}
+.contrast{
+    grid-column: 3/4;
+
+}
+section{
+    border:2px solid black;
+    padding:2em;
+}

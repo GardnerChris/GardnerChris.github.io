@@ -1,0 +1,41 @@
+
+header, footer{
+    background-color: #242582;
+    color:white;
+    padding:10px;
+    border-radius:8px;
+    font-size: 14px;
+    text-align: center;    
+}
+header img{
+    max-width: 250px;
+    border:1px solid black;
+    border-radius:8px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding-left:1em;
+}
+body{
+    background-color: #DADEDF;
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+ul{
+    font-family: "Roboto", Arial, sans-serif;
+    padding-left:70px;
+    line-height: 1.3em;
+    font-size: 17px;
+}
+.merriweather{
+    font-family: "Merriweather", Georgia, serif;
+
+}
+main{
+    padding-top:3em;
+}
+footer a{
+    color:#FAF3DD;
+}
