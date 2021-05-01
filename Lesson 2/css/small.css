@@ -6,20 +6,20 @@ header, footer, main{
     text-align: center;
     font-family:"Merriweather", Georgia, serif;
     border-radius:5px 5px 5px 5px;
+    max-width: 920px;
+    margin:0 auto;
 
 }
 body{
     background-color: white;
     margin:auto;
-    max-width: 920px;
 }
 .columns{
     display:grid;
-    grid-template-columns: 1fr;
     font-family: "Merriweather",Georgia,serif;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:10px;
-    background-color: #FAF3DD;
+    background-color: white;
 }
 section{
     border:1px solid black;
