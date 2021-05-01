@@ -1,6 +1,7 @@
 @media only screen and (min-width: 32.5rem){
     .columns{
         grid-template-columns: 1fr 1fr;
+        grid-gap:20px;
     }    
     .white {
         grid-column: 1/ span 1;
