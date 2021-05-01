@@ -1,5 +1,20 @@
-@media only screen and (min-width: 32.5em){
-        .columns{
-        grid-column:1f 1fr;
+@media only screen and (min-width: 32.5rem){
+    /* Changed the template columns to use 3, this could probably work for the larges creen as well. */
+    .columns{
+        grid-template-columns: 1fr 1fr;
+    }    
+
+    /* Changed the grid columns to use a span, instead of the column that they end on. */
+    .white {
+        grid-column: 1/ span 1;
+    }
+
+    .contrast {
+        grid-column: 2/ span 1;
+    
+    }
+
+    /* Added body color to prove breakpoint was working. */
+
     }
 }

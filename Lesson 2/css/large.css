@@ -1,6 +1,14 @@
-@media only screen and(min-width: 66em){
+@media only screen and (min-width: 66rem){
     .columns{
-        grid-column:1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-
+    .white {
+        grid-column: 1/ span 2;
+    }
+    .contrast {
+        grid-column: 3/ span 2;
+    }
+    .hierarchy {
+        grid-column: 5/ span 2;
+    }
 }
