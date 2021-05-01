@@ -26,15 +26,6 @@ section{
     text-align: center;
     border-radius:5px;
 }
-.white{
-    grid-column:1/1 ;
-}
-.contrast{
-    grid-column: 1/1;
-}
-.hierarchy{
-    grid-column: 1/2;
-}
 img{
     margin-top:1em;
     max-width:90%;
