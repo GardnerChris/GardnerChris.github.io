@@ -1,19 +1,18 @@
-header, footer{
+header, footer, main{
     background-color: #242582;
     color:white;
     padding:10px;
     text-align: center;
     font-family:"Merriweather", Georgia, serif;
     border-radius:5px 5px 5px 5px;    
+    max-width:960px
 }
 body{
     background-color: white;
-    margin:auto;
-    max-width: 960px;
 }
-main{  
+.columns{  
     padding-top:1em;
-    margin:1em;
+    padding-bottom: 1em;
 
 }
 section{
@@ -23,7 +22,7 @@ section{
     border-radius:5px;
 }
 img{
-    max-width: 90%;
+    max-width:50%;
     box-shadow: 5px 5px 5px grey;
     border-radius:5px;
     border:.5px solid black;
@@ -34,13 +33,13 @@ h1, h3{
 }
 section h3{
     background-color:#242582;
-    color:white;
-    padding:1em 1em 1em 1em; 
+    color:white; 
 }
 p{
     text-align: center;
     padding:0em 1em 0em 1em;
     font-family: "Roboto";
+    color:black;
 }
 footer a{
     color:#FAF3DD;
