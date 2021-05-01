@@ -4,4 +4,9 @@
     grid-gap:10px;
     padding:1em 1em 0em 1em;
     }
+    .white{
+        grid-column:1/2 ;
+    }
+    .contrast{
+        grid-template-columns: 2/3;
 }

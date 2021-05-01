@@ -1,23 +1,21 @@
 
-header, footer{
+header, footer, main{
     background-color: #242582;
     color:white;
     padding:10px;
     text-align: center;
     font-family:"Merriweather", Georgia, serif;
     border-radius:5px 5px 5px 5px;
+    max-width: 66em;
 
 }
 body{
     background-color: white;
-    max-width: 960px;
     margin:auto;
 }
 .columns{ 
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:10px;
-    padding:1em 1em 0em 1em;
+    grid-template-columns: 1fr;
     font-family: "Merriweather",Georgia,serif;
 }
 section{
@@ -28,14 +26,7 @@ section{
     grid-gap:15px;
 }
 .whitespace{
-    grid-column: 1/2;
-}
-.contrast{
-    grid-column: 2/3;
-
-}
-.hierarchy{
-    grid-column: 3/4;
+    grid-column: 1/4;
 }
 img{
     margin-top:1em;
