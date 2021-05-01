@@ -8,24 +8,12 @@ header, footer{
 }
 body{
     background-color: white;
-    margin: 1.25rem auto;
+    margin:auto;
     max-width: 960px;
 }
-main{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;  
-    padding:1em 1em 1em 1em; 
-    grid-gap:1em;
-}
-.white{
-    grid-area:1/1/2/2;
-}
-.hierarchy{
-    grid-column: 2/3/4;
-}
-.contrast{
-    grid-area:1/2/2/3;
-    padding-bottom:3em;
+main{  
+    padding-top:1em;
+    margin:1em;
 
 }
 section{

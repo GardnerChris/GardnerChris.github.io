@@ -1,6 +1,16 @@
-@media (min-width: 64em) {
-    section{
-        display: grid;
+@media only screen and(min-width: 65em) {
+    main{    
+    display:grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .white{
+        grid-column:1/2;
+    }
+    .hierarchy{
+        grid-column: 2/3;
+    }
+    .contrast{
+        grid-area:3/4;
+        padding-bottom:3em;
     }
 }

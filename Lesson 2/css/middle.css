@@ -1,7 +1,14 @@
-@media (min-width: 32.5em) {
-    main{
+@media only screen and(min-width: 40em) {
+    section{
         display: grid;
-        grid-template-columns:1fr 1fr;  
-        
+        grid-template-columns:1fr 1fr;     
     }
+    section .white{
+        grid-column: 1/2;
+    }
+    section .contrast{
+        grid-column: 2/3;
+    }
+
+
 }
