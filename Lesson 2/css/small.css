@@ -6,27 +6,36 @@ header, footer, main{
     text-align: center;
     font-family:"Merriweather", Georgia, serif;
     border-radius:5px 5px 5px 5px;
-    max-width: 66em;
 
 }
 body{
     background-color: white;
     margin:auto;
+    max-width: 920px;
 }
-.columns{ 
+.columns{
     display:grid;
     grid-template-columns: 1fr;
     font-family: "Merriweather",Georgia,serif;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+    background-color: #FAF3DD;
 }
 section{
     border:1px solid black;
     background-color:#E5E7E6;
     text-align: center;
     border-radius:5px;
-    grid-gap:15px;
 }
-.whitespace{
-    grid-column: 1/4;
+
+.white{
+    grid-column:1/2 ;
+}
+.contrast{
+    grid-column: 2/3;
+}
+.hierarchy{
+    grid-column: 3/4;
 }
 img{
     margin-top:1em;

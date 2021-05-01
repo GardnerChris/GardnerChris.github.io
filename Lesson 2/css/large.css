@@ -1,12 +1,16 @@
 @media only screen and(min-width: 66em) {
     .columns{
+    display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:10px;
-    padding:1em 1em 0em 1em;
     }
     .white{
         grid-column:1/2 ;
     }
     .contrast{
-        grid-template-columns: 2/3;
+        grid-column: 2/3;
+    }
+    .hierarchy{
+        grid-column: 3/4;
+    }
 }
