@@ -5,6 +5,7 @@ header, footer{
     text-align: center;
     font-family:"Merriweather", Georgia, serif;
     margin:auto;
+    font-size: 90%;
 }
 h1{
     text-align: center;
@@ -22,7 +23,8 @@ h3{
 body{
     max-width: 1080px;
     margin:0 auto;
-
+    font-size:16px;
+    padding:10px;
 }
 .active{
     background-color: yellow;
@@ -46,6 +48,7 @@ nav ul li{
 p{
     font-size: 1.1em;
     font-family: "Roboto", Arial, sans-serif;
+    padding:1em;
 }
 a{
     text-decoration: none;
@@ -54,6 +57,9 @@ a{
 a:active li{
     background-color: blanchedalmond;
 }
-img{
+.logo{
     max-width:20%;
+    padding:1em;
+    margin-left: 1em;
+    border:2px solid black
 }
