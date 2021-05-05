@@ -1,0 +1,52 @@
+header, footer{
+    background-color: #242582;
+    color:white;
+    padding:10px;
+    text-align: center;
+    font-family:"Merriweather", Georgia, serif;
+    margin:0 auto;
+}
+h1{
+    text-align: center;
+    margin: 1 auto;
+    color:white;
+}
+.top_btm{
+    border-radius:5px;
+    overflow: hidden;
+}
+body{
+    max-width: 1080px;
+    margin:0 auto;
+
+}
+.active{
+    background-color: yellow;
+    margin:0;
+}
+nav ul {
+    font-family: "Merriweather", Georgia, serif;;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color:darkslateblue;
+    margin:0;
+    padding: 0;
+    
+}
+nav ul li{
+    flex:1 1 auto;
+    padding:1em;
+}
+a{
+    text-decoration: none;
+    color:white;
+    
+}
+a:active li{
+    background-color: blanchedalmond;
+}
+img{
+    max-width:20%;
+}
