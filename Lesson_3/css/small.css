@@ -4,12 +4,16 @@ header, footer{
     padding:10px;
     text-align: center;
     font-family:"Merriweather", Georgia, serif;
-    margin:0 auto;
+    margin:auto;
 }
 h1{
     text-align: center;
     margin: 1 auto;
     color:white;
+    font-family:"Merriweather", Georgia, serif;
+}
+h3{
+    font-size:1.3em;
 }
 .top_btm{
     border-radius:5px;
@@ -25,7 +29,7 @@ body{
     margin:0;
 }
 nav ul {
-    font-family: "Merriweather", Georgia, serif;;
+    font-family: "Merriweather", Georgia, serif;
     list-style: none;
     display:flex;
     justify-content: center;
@@ -39,10 +43,13 @@ nav ul li{
     flex:1 1 auto;
     padding:1em;
 }
+p{
+    font-size: 1.1em;
+    font-family: "Roboto", Arial, sans-serif;
+}
 a{
     text-decoration: none;
-    color:white;
-    
+    color:white;   
 }
 a:active li{
     background-color: blanchedalmond;
