@@ -25,10 +25,12 @@ body{
     margin:0 auto;
     font-size:16px;
     padding:10px;
+    background-color: #ffff;
 }
 .active{
-    background-color: yellow;
+    background-color:#8EC0CD;
     margin:0;
+
 }
 nav ul {
     font-family: "Merriweather", Georgia, serif;
@@ -36,7 +38,7 @@ nav ul {
     display:flex;
     justify-content: center;
     text-align: center;
-    background-color:darkslateblue;
+    background-color:#BDD4E7;
     margin:0;
     padding: 0;
     
@@ -44,6 +46,10 @@ nav ul {
 nav ul li{
     flex:1 1 auto;
     padding:1em;
+
+}
+nav li{
+    color:black;
 }
 p{
     font-size: 1.1em;
@@ -52,14 +58,53 @@ p{
 }
 a{
     text-decoration: none;
-    color:white;   
-}
-a:active li{
-    background-color: blanchedalmond;
+    color:black;   
+
 }
 .logo{
     max-width:20%;
     padding:1em;
     margin-left: 1em;
     border:2px solid black
+}
+.colors ul{ 
+    list-style: none;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow:column; 
+}
+.colors li{
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+ 
+}
+.colors h3{
+    text-align: center;
+    font-size: 1.3em;
+}
+.heading{
+    background-color: #242582;
+    color:white;
+}
+.nav{
+    background-color: #BDD4E7;
+
+}
+.accent{
+    background-color:#AA6DA3;
+}
+.forth{
+    background-color:#ED6A5A;
+}
+.background{
+    background-color: #ffffff;
+    color:#000;
+}
+.merri{
+    font-family: "Merriweather";
+}
+.roboto{
+    font-family: "Roboto";
 }
