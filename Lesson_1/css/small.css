@@ -1,41 +1,123 @@
-
+/* all pages*/
 header, footer{
     background-color: #242582;
     color:white;
     padding:10px;
-    border-radius:8px;
-    font-size: 14px;
-    text-align: center;    
-}
-header img{
-    max-width: 250px;
-    border:1px solid black;
-    border-radius:8px;
-}
-h1{
     text-align: center;
-}
-h2{
-    text-align: center;
-}
-body{
-    background-color: #DADEDF;
-    margin: 1.25rem auto;
-    max-width: 760px;
-}
-ul{
-    font-family: "Roboto", Arial, sans-serif;
-    padding-left:70px;
-    line-height: 1.3em;
-    font-size: 17px;
-}
-.merriweather{
-    font-family: "Merriweather", Georgia, serif;
-
+    font-family:"Merriweather", Georgia, serif;
+    font-size: 90%;
 }
 main{
-    padding-top:3em;
+    background-color: white;
+    padding:1em;
 }
 footer a{
     color:#FAF3DD;
+}
+h1{
+    text-shadow: 3px 3px 3px black;
+    color:white;
+    font-family:"Merriweather", Georgia, serif;
+}
+h2, h3{
+    text-shadow: 1px 1px 1px #ccc;
+    font-size:1.3em;
+}
+.top_btm{
+    overflow: hidden;
+}
+body{
+    max-width: 1080px;
+    margin:0 auto;
+    font-size:16px;
+    padding:0;
+    background-color: #EBEBEB;
+    box-shadow:0 3px 6px 0 rgb(0 0 0 / 30%);
+}
+nav ul {
+    font-family: "Merriweather", Georgia, serif;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:#BDD4E7;
+    padding:1em;
+    color:white;
+    text-shadow: 1px 1px 1px #888;
+}
+a{
+    text-decoration: none;
+    color:black;
+}   
+a:hover{
+    color:white;
+}
+.ac{
+    background-color:#C99FC4;
+}
+p{
+    font-size: 1.1em;
+    font-family: "Roboto", Arial, sans-serif;
+    padding:1em;
+}
+img{
+    margin:1em;
+    max-width:90%;
+}
+/* index.html Page */
+.logo{
+    max-width:20%;
+    margin:auto;
+}
+/* color-scheme.html */
+.colors ul{ 
+    list-style: none;
+    padding:0;
+}
+.colors li{
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+    justify-content: center;
+    padding:1em;
+}
+.colors{
+    padding:1em;
+}
+.colors h3{
+    font-size: 1.2em;
+}
+.heading{
+    background-color: #242582;
+    color:white;
+}
+.nav{
+    background-color: #BDD4E7;
+
+}
+.accent{
+    background-color:#73956F;
+    color: white;
+}
+.accent2{
+    background-color:#C99FC4;
+}
+.background{
+    background-color: #EBEBEB;
+    color:#000;
+}
+.scenerios{
+    font-size: 1.1em;
+}
+/* topology.html */
+.merri{
+    font-family: "Merriweather";
+}
+.roboto{
+    font-family: "Roboto";
+}
+.colorPallete{
+    color:#242582;
+    text-decoration: underline;
+    
 }
