@@ -27,9 +27,8 @@
     }
     img{
         margin:0 auto;
-    }
-    .scenrios{
-        font-size: 1.1em;
+        box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%);
+    
     }
     .ac{
         background-color: #BDD4E7;
