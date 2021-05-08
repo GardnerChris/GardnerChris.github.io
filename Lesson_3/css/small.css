@@ -1,3 +1,4 @@
+/* all pages*/
 header, footer{
     background-color: #242582;
     color:white;
@@ -7,7 +8,10 @@ header, footer{
     margin:auto;
     font-size: 90%;
 }
-h1{
+footer a{
+    color:#FAF3DD;
+}
+    h1{
     text-align: center;
     margin: 1 auto;
     color:white;
@@ -28,25 +32,18 @@ body{
     background-color: #ffff;
 }
 .active{
-    background-color:#8EC0CD;
-    margin:0;
-
+    color: #AA6DA3;
+    padding:0;
 }
 nav ul {
     font-family: "Merriweather", Georgia, serif;
     list-style: none;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color:#BDD4E7;
-    margin:0;
-    padding: 0;
-    
-}
-nav ul li{
-    flex:1 1 auto;
-    padding:1em;
-
+    padding:0;
 }
 nav li{
     color:black;
@@ -61,16 +58,17 @@ a{
     color:black;   
 
 }
+/* Index.html Page */
 .logo{
     max-width:20%;
     padding:1em;
     margin-left: 1em;
     border:2px solid black
 }
+/* Color-scheme.html */
 .colors ul{ 
     list-style: none;
     text-align: center;
-    display:flex;
     align-items: center;
     justify-content: center;
     flex-flow:column; 
