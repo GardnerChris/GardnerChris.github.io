@@ -1,6 +1,18 @@
-@media only screen and (min-width: 32.5rem){
-nav ul li { 
-    flex: 1 1 100%; 
-        
+@media only screen and (min-width: 35rem){
+nav ul { 
+    display:flex;
+    justify-content: center; 
+    flex-direction: row;
+    padding:1em;
+    margin:0;
+    justify-content:space-evenly;
+    }
+    .ac{
+        background-color: #BDD4E7;
+    }
+    img{
+        margin:4em;
+        max-width: 80%;
+    
     }
 }

@@ -5,19 +5,17 @@ header, footer{
     padding:10px;
     text-align: center;
     font-family:"Merriweather", Georgia, serif;
-    margin:auto;
     font-size: 90%;
 }
 footer a{
     color:#FAF3DD;
 }
-    h1{
-    text-align: center;
-    margin: 1 auto;
+h1{
     color:white;
     font-family:"Merriweather", Georgia, serif;
 }
-h3{
+h2, h3{
+
     font-size:1.3em;
 }
 .top_btm{
@@ -29,7 +27,7 @@ body{
     margin:0 auto;
     font-size:16px;
     padding:10px;
-    background-color: #ffff;
+    background-color: #EBEBEB;
 
 }
 nav ul {
@@ -40,47 +38,48 @@ nav ul {
     justify-content: center;
     text-align: center;
     background-color:#BDD4E7;
-    padding:0;
+    padding:1em;
+    color:white;
 }
-nav li{
+a{
+    text-decoration: none;
     color:black;
+}   
+a:hover{
+    color:white;
 }
-.active{
-    color:red;
+.ac{
+    background-color:#C99FC4;
 }
 p{
     font-size: 1.1em;
     font-family: "Roboto", Arial, sans-serif;
     padding:1em;
 }
-a{
-    text-decoration: none;
-    color:black;   
-
+img{
+    margin:1em;
 }
-/* Index.html Page */
+/* index.html Page */
 .logo{
     max-width:20%;
-    padding:1em;
-    margin-left: 1em;
-    border:2px solid black
+    margin:auto;
 }
-/* Color-scheme.html */
+/* color-scheme.html */
 .colors ul{ 
     list-style: none;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-flow:column; 
+    padding:0;
 }
 .colors li{
     padding: 1em 1em 1em 1em;
     text-align: center;
- 
+    justify-content: center;
+    padding:1em;
+}
+.colors{
+    padding:1em;
 }
 .colors h3{
-    text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 .heading{
     background-color: #242582;
@@ -91,18 +90,25 @@ a{
 
 }
 .accent{
-    background-color:#AA6DA3;
+    background-color:#73956F;
+    color: white;
 }
-.forth{
-    background-color:#ED6A5A;
+.accent2{
+    background-color:#C99FC4;
 }
 .background{
-    background-color: #ffffff;
+    background-color: #EBEBEB;
     color:#000;
 }
+/* topology.html */
 .merri{
     font-family: "Merriweather";
 }
 .roboto{
     font-family: "Roboto";
+}
+.colorPallete{
+    color:#242582;
+    text-decoration: underline;
+    
 }

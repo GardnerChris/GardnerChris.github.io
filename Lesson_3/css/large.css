@@ -3,11 +3,36 @@
         display:flex;
         text-align: center;
         flex-direction: row;
+        justify-content: space-evenly;
         padding:1em;
         margin:0;
-    
     }
-		nav ul li { 
-            flex: 1 1 100%; 
-}
+    .colors ul{
+        display:flex;
+        justify-content: center;
+        text-align:center;
+        padding:0;
+        margin-right:auto;
+    }
+    h1{
+        text-align: center;
+    }
+    h2, h3, h4{
+        font-size: 1.2em;
+        
+    }
+    p{
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+    img{
+        margin:0 auto;
+    }
+    .scenrios{
+        font-size: 1.1em;
+    }
+    .ac{
+        background-color: #BDD4E7;
+        color:black;
+    }
 }
