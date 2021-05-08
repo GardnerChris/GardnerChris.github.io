@@ -30,10 +30,7 @@ body{
     font-size:16px;
     padding:10px;
     background-color: #ffff;
-}
-.active{
-    color: #AA6DA3;
-    padding:0;
+
 }
 nav ul {
     font-family: "Merriweather", Georgia, serif;
@@ -47,6 +44,9 @@ nav ul {
 }
 nav li{
     color:black;
+}
+.active{
+    color:red;
 }
 p{
     font-size: 1.1em;
