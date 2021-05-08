@@ -32,8 +32,7 @@ body{
     font-size:16px;
     padding:0;
     background-color: #EBEBEB;
-    box-shadow:0 3px 6px 0 rgb(0 0 0 / 30%)
-
+    box-shadow:0 3px 6px 0 rgb(0 0 0 / 30%);
 }
 nav ul {
     font-family: "Merriweather", Georgia, serif;
@@ -64,6 +63,7 @@ p{
 }
 img{
     margin:1em;
+    max-width:90%;
 }
 /* index.html Page */
 .logo{
