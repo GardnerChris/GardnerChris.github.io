@@ -8,6 +8,8 @@ header, footer, main{
     border-radius:5px 5px 5px 5px;
     max-width: 920px;
     margin:0 auto;
+    box-shadow: 5px 5px 5px grey;
+    
 }
 body{
     background-color: white;
