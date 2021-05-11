@@ -1,0 +1,27 @@
+nav ul li{
+    list-style: none;
+}
+img{
+    float:left;
+    max-width: 75px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav ul li{
+    background-color: rgba(0,0,0,.08);
+    display:block;
+    
+}
+nav ul li.active{
+    background-color: rgba(0,0,0,.03);
+    color:White;
+
+}
+nav ul{
+    display:block;
+    padding:0;
+    margin:0;
+}
