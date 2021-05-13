@@ -1,0 +1,54 @@
+@media only screen and (min-width: 39.5rem){
+     nav button{
+        display:none;
+    }
+    nav ul li{
+        float:left;
+    }
+    nav ul li a{
+        border:none;
+        padding:5px 0px 5px;
+
+    }
+    body{
+        max-width: 90%;
+        padding:1em;
+        background-color: #EBEBEB;
+        padding-top:0;
+    }
+    .headingTxt{
+        text-align:center;
+        font-size: 1.3em; 
+        margin:1em;
+    }
+    h4{
+        margin: 0;
+        padding:0;
+    }
+    .logo{
+        max-width: 65px;
+
+ } 
+ nav ul.hide{
+    display:flex;
+    justify-content: center;
+    margin: 2% 2% 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bdd4e7+0,6cafe2+100&0.56+29,1+100 */
+    background: -moz-linear-gradient(top,  rgba(189,212,231,0.56) 0%, rgba(166,201,230,0.56) 29%, rgba(108,175,226,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(189,212,231,0.56) 0%,rgba(166,201,230,0.56) 29%,rgba(108,175,226,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(189,212,231,0.56) 0%,rgba(166,201,230,0.56) 29%,rgba(108,175,226,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fbdd4e7', endColorstr='#6cafe2',GradientType=0 ); /* IE6-9 */                
+}
+nav ul{
+    margin:0;
+    padding:0;
+    font-size: 1em;
+}
+nav ul li{
+    padding:.4rem .5rem;
+    font-size:.8rem;   
+}
+main{
+    background-color: white;
+}
+}
