@@ -11,8 +11,8 @@
 
     }
     body{
-        max-width: 90%;
-        padding:1em;
+        max-width: 80%;
+        padding:0;
         background-color: #EBEBEB;
         padding-top:0;
     }
@@ -33,20 +33,17 @@
     display:flex;
     justify-content: center;
     margin: 2% 2% 0;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bdd4e7+0,6cafe2+100&0.56+29,1+100 */
-    background: -moz-linear-gradient(top,  rgba(189,212,231,0.56) 0%, rgba(166,201,230,0.56) 29%, rgba(108,175,226,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(189,212,231,0.56) 0%,rgba(166,201,230,0.56) 29%,rgba(108,175,226,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(189,212,231,0.56) 0%,rgba(166,201,230,0.56) 29%,rgba(108,175,226,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fbdd4e7', endColorstr='#6cafe2',GradientType=0 ); /* IE6-9 */                
+    
 }
 nav ul{
     margin:0;
     padding:0;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 nav ul li{
     padding:.4rem .5rem;
-    font-size:.8rem;   
+    font-size:.8rem;
+    border-right:1px solid rgba(0,0,0,0.3);   
 }
 main{
     background-color: white;

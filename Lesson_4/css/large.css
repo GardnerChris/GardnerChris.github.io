@@ -5,38 +5,53 @@
     nav ul li a{
         border:none;
         margin:.5em;
-        border-right:1px solid rgba(0,0,0,0.3);
-        padding:.5rem .5rem;
+        padding-right:0em;
         text-align: center;
+    }
+    footer p{
+        text-align: center;
+    }
+    nav ul li{
+        font-size: 1rem;
+        padding:0;
     }
     footer{
         text-align: center;
     }
     body{
-        max-width: 90%;
+        max-width: 70%;
         padding:0;
         margin:0 auto;
     }
     .headingTxt{
         text-align:center;
         font-size: 1.4em;
-        margin-right:1em;
-        margin:0;
+        margin-right:3.5em;
         padding-bottom: 0; 
+        margin-bottom:0;
     }
     .logo{
         max-width: 75px;
     
     }
-    nav ul li{
-        font-size: 1rem;
-    }
     h4{
         margin-left:0;
-        padding:0;    
+        padding-bottom:1em;    
+      
+    }
+    h1{
+        padding:1em
+    }
+    nav ul.hide{
+        margin:0;
 
     }
-    n
+  nav ul li a:hover{
+    padding:.9em .5em;
+    margin:0;
+  }  
         
-    }
+.hero{
+    max-width: 50%;
+}
 }
