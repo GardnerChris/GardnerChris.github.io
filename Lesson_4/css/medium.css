@@ -29,10 +29,7 @@
         max-width: 65px;
 
  } 
- nav ul.hide{
-    display:flex;
-    justify-content: center;
-    margin: 2% 2% 0;
+
     
 }
 nav ul{
@@ -47,5 +44,4 @@ nav ul li{
 }
 main{
     background-color: white;
-}
 }

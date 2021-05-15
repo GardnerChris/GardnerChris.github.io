@@ -110,9 +110,7 @@ header h1{
 }
 .forecast h4{
     grid-column: 2/3;
-}
-.forecastImg{
-    display:none;
+
 }
 .forecast1,.forecast2,.forecast3,.forecast4,.forecast5{
     max-width: 90px;
@@ -121,12 +119,26 @@ header h1{
 }
 .prestonHeading{
 padding-left:0;
+
 }
 .articleTitle{
     grid-column: 2/3;
     text-align: left;
 }
 .articleP{
-    grid-column: 2/3;
-    padding-left:0;
+    grid-column: 2/4;
+    grid-row:6/7;
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+
+}
+.forecastImg{
+    padding:1em;
+    border-top:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    grid-column: 4/5;
+    grid-row:6/7;
+}
 }
