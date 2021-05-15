@@ -119,7 +119,7 @@ header h1{
 }
 .prestonHeading{
 padding-left:0;
-
+text-shadow: 3px 3px 3px #ccc;
 }
 .articleTitle{
     grid-column: 2/3;
