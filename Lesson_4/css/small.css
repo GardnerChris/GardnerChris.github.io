@@ -1,0 +1,168 @@
+header, footer{
+    background-color: #242582;
+    color:white;
+    font-family:"Merriweather",Georgia, serif;
+    border-radius: 5px;
+}
+header h1, header h5{
+    text-shadow: 3px 3px 3px black;
+    text-align:center;
+    padding:0;
+    margin:0; 
+}
+header h1{
+    font-size: 1.2em;
+    padding:4% 2%;
+}
+header h5{
+    padding-bottom:1em;
+
+}
+h1,h2,h3,h4,h5{
+    font-family:"Merriweather", Georgia, serif;
+}
+.headingTxt{
+    margin-right:10%;
+}
+p{
+    font-family:"Roboto", Arial, sans-serif; 
+}
+footer{
+    text-align: center;
+    font-size: 14px;    
+}
+h5{
+    font-size:.9em;
+    padding-bottom: 2em;
+    padding-top:0em;
+    margin-bottom:1em;
+}
+footer{
+    padding:1em;
+}
+footer a{
+    color: rgba(189,212,231,1);
+}
+body{
+    margin:0 auto;
+    max-width: 90%;
+    padding-top:1em;
+    box-shadow:0 3px 6px 0 rgb(0 0 0 / 30%);   
+}
+.logo{
+    float:left;
+    max-width: 55px;
+    padding:5px;
+}
+nav button{
+    margin:.4rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color:#fff;
+}
+nav{
+    background-color: #BDD4E7;
+    font-family: Verdana, sans-serif;   
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bdd4e7+1,69afe5+100,69afe5+100 */
+    background: rgb(189,212,231); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(189,212,231,1) 1%, rgba(105,175,229,1) 100%, rgba(105,175,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(189,212,231,1) 1%,rgba(105,175,229,1) 100%,rgba(105,175,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(189,212,231,1) 1%,rgba(105,175,229,1) 100%,rgba(105,175,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdd4e7', endColorstr='#69afe5',GradientType=0 ); /* IE6-9 */
+}
+nav ul{
+    list-style-type:none;
+    padding:0;
+    font-size: .9em;
+    border-radius: 5px;
+    
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgb(0,0,0,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.4);color:#ffff;
+
+}
+nav ul li.active{
+    background-color:rgba(201, 159, 196, 1);
+               
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  nav ul.hide{
+      display:none;
+         
+}
+main{
+    text-align:center;
+}
+.prestonHeading{
+    margin:0;
+    padding:1em;
+    text-align: left;
+}
+p{
+    margin:0;
+    padding:1em;
+    text-align: left;
+}
+.headingTxt{
+    font-size: 1.1em;
+    padding-bottom:1em
+}
+.hero{
+    max-width: 85%;
+}
+.fiveDayImg{
+    background-color: #73956F;
+}
+.forecast1,.forecast2,.forecast3,.forecast4,.forecast5{
+    max-width: 80px;
+    padding:.5em;   
+    
+}
+.forecast{
+    border:2px solid black;
+    padding:10px;
+    margin:1em;
+    background-color: #ccc;;
+}
+.forecastImg{
+    max-width: 260px;
+}
+.email{
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 30px;
+    margin-left:20%;
+    float:left;
+}
+.phone{
+    background-color: #fff;
+    border-radius: 5px;
+    padding:5px;
+    max-width: 20px;
+    margin-left:20%;
+    float:left;
+    justify-content: center;
+}
+.phoneP, .emailP{
+    padding-bottom:1em;
+    margin-left:14em;
+    padding-top:5px;
+}
+.prestonMap{
+    max-width: 260px;
+    border-radius: 5px;
+    border:2px solid #888;
+    margin-top:2%;
+}
