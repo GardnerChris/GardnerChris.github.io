@@ -1,56 +1,41 @@
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 70rem) {
     nav button{
         display:none;   
     }
-    nav ul li a{
-    border:none;
-    padding:.8em;
-    text-align: center;
-    }
-    nav ul.hide{
-    display:flex;
-    justify-content: center;
-    margin: 2% 2% 0;
-    padding:0;
-}
+
 header h1, header h5{
+    padding:.5em .5em;
+    padding-bottom: 0px;
     text-align: left;
+}
+.headingTxt{
+    margin-left:27%;
+    font-size:1.4em;
+    padding-top:1em
 
 }
-header h1{
-    padding:.5em .5em;
-    padding-bottom: 5px;
+.logo{
+    max-width: 85px;
+    margin-left:27%;
 }
     footer p{
         text-align: center;
+        font-size: 1.1em;
     }
     nav ul li{
         font-size: 1rem;
         padding:0;
         border-right:1px solid rgba(0,0,0,0.3);   
     }
-    nav ul{
-        padding:0;
- 
-    }
     footer{
         text-align: center;
     }
     body{
-        max-width: 70%;
+        max-width: 100%;
         padding:0;
         margin:0 auto;
-    }
-    .headingTxt{
-        text-align:center;
-        font-size: 1.4em;
-        margin-right:0;
-        padding-bottom: 0; 
-        margin-top:0;
-    }
-    .logo{
-        max-width: 75px;
-        margin-left:20%;
+
+ 
     }
     header h5{
         padding-bottom:1em;    
@@ -71,10 +56,12 @@ header h1{
 }
 .hero{
     grid-column: 2/ span 4;
-    max-width: 80%;
+    max-width: 60%;
     box-shadow:3px 3px 6px 0 rgb(0 0 0 / 60%);
     border-radius:5px;
     float:left;
+    margin-left:9%;
+
 }
 .first{
     max-width: 20%;
@@ -82,7 +69,7 @@ header h1{
     opacity: .8;
     border:2px solid #ccc;
     border-radius:5px;
-    margin: 6em 14em;
+    margin: 6em 28% ;
     margin-bottom: 0;
     position:absolute;
     
@@ -96,37 +83,38 @@ header h1{
 }
 .fiveDay{
     grid-column: 2/3 ;
-    margin:0;
     padding:1em 0;
-    text-align: left;
+    padding-left:2em;
+    text-align: center;
     text-shadow: 3px 3px 3px #ccc;
 }
 .fiveDayImg{
-    grid-column:2/ span 4;
-    border:2px solid black;
-    justify-self: left;
-    box-shadow:0px 3px 3px 0 rgb(0 0 0 / 30%);
-    background-color: #73956F;
+    grid-column:2/ span 3;
+    margin-left:12%;
+    margin-right:8%;
 }
-.forecast h4{
+.fiveDay h4{
     grid-column: 2/3;
 
 }
 .forecast1,.forecast2,.forecast3,.forecast4,.forecast5{
-    max-width: 90px;
+    max-width: 130px;
     padding:1em 1.3em;   
     
 }
 .prestonHeading{
-padding-left:0;
+padding-left:12%;
 text-shadow: 3px 3px 3px #ccc;
+
 }
 .articleTitle{
     grid-column: 2/3;
-    text-align: left;
+    text-align:center;
+    padding-left:0;
 }
 .articleP{
-    grid-column: 2/4;
+    grid-column: 2/ span 2;
+    margin-left:18%;
     grid-row:6/7;
     border-left:2px solid black;
     border-bottom:2px solid black;
@@ -140,5 +128,8 @@ text-shadow: 3px 3px 3px #ccc;
     border-bottom:2px solid black;
     grid-column: 4/5;
     grid-row:6/7;
+}
+body{
+    background-color: black;
 }
 }
