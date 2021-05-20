@@ -14,9 +14,11 @@ header img{
 }
 h1{
     text-align: center;
+    text-shadow: 3px 3px 3px black;
 }
 h2{
     text-align: center;
+    text-shadow: 3px 3px 3px black;
 }
 body{
     background-color: #DADEDF;
