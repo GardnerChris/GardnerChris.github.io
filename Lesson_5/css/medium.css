@@ -1,7 +1,22 @@
-@media only screen and (min-width:50rem){
-footer p{
-    text-align: center;
-}
+@media only screen and (min-width:40rem){
+    .headingTxt{
+        font-size: 1.3em; 
+    }
+    .headingTxt h1{
+        padding-top:1em;
+        padding-bottom:5px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: start;
+    }
+    .headingTxt h5{
+        padding-top:0;
+        text-align: start;
+    }
+    h4{
+        margin: 0;
+        padding:0;    
+    }
 nav button{
     display:none;
 }
@@ -13,8 +28,18 @@ nav ul li a{
 nav ul.hide{
     display:flex;
     justify-content: center;
-    margin: 1% 1% 0;
+    margin: 2% 2% 0;
+    justify-content:center;
+}
+nav ul{
+    margin:0;
     padding:0;
+    font-size: 1.2em;
+}
+nav ul li{
+    padding:0px;
+    font-size:1rem;
+
 }    
 .logo{
     max-width: 75px;
@@ -22,101 +47,101 @@ nav ul.hide{
     padding-top:1em;
 }
 body{
-    max-width: 100%;
     padding:0;
     background-color: #EBEBEB;
     padding-top:0;
 }
-.headingTxt{
-    font-size: 1.3em; 
-    margin:1em;
-    margin-right:40%;
-}
-.headingTxt h1{
-    margin-right:15%;
-    padding-top:1em;
-}
-.headingTxt h5{
-    margin-right:5%;
-    padding-top:0;
-}
-h4{
-    margin: 0;
-    padding:0;
-}
+
 .hero{
-    max-width: 70%;
-    border-radius:5px;
-    box-shadow:0px 6px 6px 0 rgb(0 0 0 / 40%);
-} 
- .weatherSum{
-    margin-bottom:0;
-    padding-left:1em;
-    padding-top:1em;
-    text-align: left;
- }
-nav ul{
-    margin:0;
-    padding:0;
-    font-size: 1.2em;
-}
-nav ul li{
-    padding:.4rem .5rem;
-    font-size:.8rem;
-    border-right:1px solid rgba(0,0,0,0.3);   
-}
-main{
-    background-color: #EBEBEB;
+    position: relative; 
 
 }
+.hero img{
+    box-shadow:0px 6px 6px 0 rgb(0 0 0 / 40%);
+    max-width: 98%;    
+}
+.weatherSumArea{
+    position: absolute;
+    top:40px;
+    left:40px;
+    color:#EBEBEB;
+    border:3px solid #0000;
+    background:radial-gradient(#BDD4E7, #242582);
+    line-height: 0%;
+    box-shadow: 0 0 20px #000000;
+    border:1px solid #ccc;
+ }
 .prestonHeading{
     text-shadow: 3px 3px 3px #ccc;
+    padding-left:25px;
+}
+.forecast{
+    border:none;
+    padding-bottom:0;
 }
 .forecast1,.forecast2,.forecast3,.forecast4,.forecast5{
-    max-width: 150px;
-    padding:1em 1.3em;  
+    max-width: 150px; 
+    flex:1 1 100%;
     }
 .fiveDay{
-    text-shadow: 3px 3px 3px #ccc;
+    text-shadow: 1px 1px 1px #EBEBEB;
     text-align: left;
-    margin-left:1em;
+    background: #EBEBEB;
+    border:none;
+    padding:none;
 }
 .fiveDayImg{
-    border:2px solid black;
-    margin:0;
+    display: flex;
     box-shadow:0px 6px 6px 0 rgb(0 0 0 / 30%);
-    background-color: #73956F;   
+    background-color: #73956F;
+    justify-content: space-around;
+    border:2px solid #000000;   
+}
+.fiveDayImg p{
+    text-align: center;
+}
+.monday,.tuesday,.wednesday,.thursday,.friday{
+    border:2px solid #000000;
+    background: #C99FC4;
+    margin:10px 10px;
+    opacity: .9;
+    font-weight: bold;   
+    box-shadow:0px 3px 3px 0 rgb(0 0 0 / 30%);
 }
 .articleTitle{
-    text-align:left;
     padding-top:1em;
-    padding-left:1em;
     text-shadow: 3px 3px 3px #ccc;
+    margin-left:10px;
 }
-.articleP{
-   display:inline-flex;
-    margin-left:1em;
+.article p{
+    margin-left:10px;
+
 }
 .forecastImg{
     box-shadow:0px 6px 6px 0 rgb(0 0 0 / 30%);
-    
-}
+    float:right;
+    max-width:460px;
+    border:none;
+    margin: 18px 18px;
+  }
 .contact{
+    clear:right;
     background-color:#73956F;
     border:2px solid black;
-    margin:3em;
     padding-bottom:1em;
-}
-.phoneP, .emailP{
-    margin-left:38%;
-    color:white;
+    max-width: 100%;
 }
 .phone, .email{
-    margin-left:35%;
+    margin-right:10px;
     box-shadow:0px 3px 3px 0 rgb(0 0 0 / 30%);
 }
 .prestonMap{
     border:2px solid black;
     box-shadow:0px 2px 2px 3px rgb(0 0 0 / 30%);
+    max-width: 100%;
+    display:inline;
+}
+.forecastGroup{
+    border:none;
 }
 }
