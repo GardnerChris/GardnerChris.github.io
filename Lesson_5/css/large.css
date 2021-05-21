@@ -1,129 +1,67 @@
 @media only screen and (min-width: 70rem) {
-nav button{
-        display:none;   
-    }
-header h1, header h5{
-    padding:.5em .5em;
-    padding-bottom: 0px;
-    text-align: left;
-}
-.headingTxt{
-    margin-left:27%;
-    font-size:1.4em;
-    margin-bottom:0;
-    margin-top:0;
+body{
+    max-width:1920px;
 
 }
-.logo{
-    max-width: 85px;
-    margin-left:27%;
-}
-footer p{
-    text-align: center;
-    font-size: 1.1em;
+nav ul li a:hover{
+    padding:12px;
+
 }
 nav ul li{
-    font-size: 1rem;
-    padding:0;
-    border-right:1px solid rgba(0,0,0,0.3);   
+    font-size:1rem;
+    flex: 1 1 auto;
+    display:block;
+    padding: 0px;
 }
-footer{
-    text-align: center;
-}
-body{
-    max-width: 100%;        
-    margin:0 auto;    
-}
-header h5{
-    padding-bottom:1em;    
-    margin:0;
-} 
-  nav ul li a:hover{
-    padding-right:12px;  
-}
-.main{
-    display:grid;
-    grid-template-columns: 20% 1fr 1fr 1fr 1fr;
-    background-color: #EBEBEB;
-}
-.main h2{
-    grid-column: 2/ span 3;
+main{
+    padding:10px 10px;
 }
 .hero{
-    grid-column: 2/ span 4;
-    max-width: 60%;
-    box-shadow:3px 3px 6px 0 rgb(0 0 0 / 60%);
-    border-radius:5px;
-    float:left;
-    margin-left:9%;
-
-}
-.first{
-    max-width: 20%;
-    background-color: white;
-    opacity: .8;
-    border:2px solid #ccc;
-    border-radius:5px;
-    margin: 6em 28% ;
-    margin-bottom: 0;
-    position:absolute;
-    
-}
-.first h4{
-    padding-bottom:.5em;
-    padding-left:1em
-}
-.first p{
-    padding-bottom:1em;
-}
-.fiveDay{
-    grid-column: 2/3 ;
-    padding:1em 0;
-    padding-left:2em;
-    text-align: center;
-    
-}
-.fiveDayImg{
-    grid-column:2/ span 3;
-    margin-left:12%;
-    margin-right:8%;
-}
-.fiveDay h4{
-    grid-column: 2/3;
-}
-.forecast1,.forecast2,.forecast3,.forecast4,.forecast5{
-    max-width: 130px;
-    padding:1em 1.3em;   
+    max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 .prestonHeading{
-    padding-left:12%;
+    margin-left:9%;
 }
-.articleTitle{
-    grid-column: 2/3;
-    text-align:center;
-    padding-left:0;
+.forecast{
+    max-width: 78%;
+    margin-left:auto;
+    margin-right:auto;
 }
-.articleP{
-    grid-column: 2/ span 2;
-    margin-left:18%;
-    grid-row:6/7;
-    border-left:2px solid black;
-    border-bottom:2px solid black;
-    border-top:2px solid black;
+.article{
+    max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
 }
-.forecastImg{
-    padding:1em;
-    border-top:2px solid black;
-    border-right:2px solid black;
-    border-bottom:2px solid black;
-    grid-column: 4/5;
-    grid-row:6/7;
-    box-shadow: none;
+.contact{
+    padding-bottom: 90px;
 }
 .contact h5{
-    color:white;
-    font-size: large;
-
-
+    font-weight: bolder;
+    font-size: larger;
+    margin-top:50px;
+    padding:0;
+}
+.contactElements{
+    margin-left:60%;
+}
+.prestonMap{
+    float:left;
+    margin-left:9rem;    
+    max-width: 460px;
+}
+.facebookIco, .twitterIco, .instaIco{
+    max-width: 30px;
+    border:1px solid white;
+    background-color:#EBEBEB;
+    border-radius: 50px;
+    padding:1px;
+    box-shadow:0px 6px 6px 0 rgb(0 0 0 / 40%);
+}
+.contact a:hover{
+    border-bottom:3px solid  #C99FC4;
+    box-shadow:0px 2px 0px rgb(0 0 0 / 30%);
+    
 }
 }
