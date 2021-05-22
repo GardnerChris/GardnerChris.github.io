@@ -59,14 +59,6 @@ main{
     margin-left:9rem;    
     max-width: 460px;
 }
-.facebookIco, .twitterIco, .instaIco{
-    max-width: 30px;
-    border:1px solid white;
-    background-color:#EBEBEB;
-    border-radius: 50px;
-    padding:1px;
-    box-shadow:0px 6px 6px 0 rgb(0 0 0 / 40%);
-}
 .contact a:hover{
     border-bottom:3px solid  #C99FC4;
     box-shadow:0px 2px 0px rgb(0 0 0 / 30%);
