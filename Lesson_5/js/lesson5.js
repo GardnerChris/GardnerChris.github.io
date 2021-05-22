@@ -6,7 +6,7 @@ let date = new Date();
 document.getElementById("currYear").innerHTML= date.getFullYear();
 document.getElementById("lastmod").innerHTML="Last Update: " + document.lastModified;
 
-if (date.getDay()==5){
+if (date.getDay()==6){
     document.getElementById("pancake").style.display= "block" ;
 
 }
