@@ -1,7 +1,11 @@
 @media only screen and (min-width: 70rem) {
+
 body{
     max-width:1920px;
 
+}
+.headingTxt{
+    font-size: x-large;
 }
 nav ul li a:hover{
     padding:12px;
