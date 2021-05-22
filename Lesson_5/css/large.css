@@ -42,6 +42,10 @@ main{
     font-size: larger;
     margin-top:50px;
     padding:0;
+    margin-left:0;
+}
+.contact p{
+    margin-left:0;
 }
 .contactElements{
     margin-left:60%;
