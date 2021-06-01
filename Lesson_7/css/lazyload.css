@@ -9,8 +9,8 @@ img{
     max-height: 400px;
     filter: blur(3px);
     border:2px solid red;
-    transition:filter;
+    transition:filter 1s;
 }
 img-src{
-    transition-property:blur(0px) 2s;
+    transition-property:blur(0px);
 }
