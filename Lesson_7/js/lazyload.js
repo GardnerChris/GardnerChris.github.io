@@ -1,28 +1,32 @@
-let images = document.querySelectorAll("img[data-src]");
-function preloadImage(img) {
-    let src = img.getAttribute("data-src");
-    if (!src) {
-        return;
+
+const images = document.querySelectorAll("img[data-src]");
+
+function preloadImage (img){
+    const src=img.getAttribute("data-src");
+    if (!src){
+        return
     }
-    img.src = src;
-    img.removeAttribute('data-src');
+    img.src=src;
 }
-let imgOptions = {
-    threshold: 0,
-    rootMargin: "0px 0px 50px 0px"
-};
-let imgObserver = new IntersectionObserver((entries, imgObserver) => {
-    entries.forEach(entry => {
-        if (!entry.isIntersecting) {
+    const imgOptions= {
+        threshold:0,
+        rootMargin:"0px 0px 30px 0px"};
+
+const imgObserver= new IntersectionObserver((entries,imgObserver) =>{
+    entries.forEach(entry =>{
+        if(!entry.isIntersecting){
             return;
-        } else {
+        }
+        else{
             preloadImage(entry.target);
             imgObserver.unobserve(entry.target);
         }
     })
-}, imgOptions);
-images.forEach(image => {
+},imgOptions);
+
+
+images.forEach(image =>{
     imgObserver.observe(image);
-})
+});
 
 
