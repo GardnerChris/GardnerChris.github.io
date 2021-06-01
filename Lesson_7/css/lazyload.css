@@ -12,5 +12,5 @@ img{
     transition:filter;
 }
 img-src{
-    blur(0px);
+    transition-property:blur(0px) 2s;
 }
