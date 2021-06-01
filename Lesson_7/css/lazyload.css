@@ -1,13 +1,14 @@
 picture{
     display:grid;
     grid-auto-columns: auto;
-    gap:20px;
+    gap:50px;
 
 }
 img{
     max-width: 300px;
     max-height: 400px;
-    filter: blur(8px);
+    filter: blur(3px);
+    border:2px solid red;
 }
 img-src{
     filter:blur(0px);
