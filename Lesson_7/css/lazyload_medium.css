@@ -1,0 +1,9 @@
+@media only screen and (min-width:40rem){
+    h1{
+        font-size: 33px;
+
+    }
+    a{
+        font-size: 20px;
+} 
+}

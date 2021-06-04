@@ -1,4 +1,3 @@
-
 const images = document.querySelectorAll("img[data-src]");
 
 function preloadImage (img){
@@ -10,7 +9,7 @@ function preloadImage (img){
 }
     const imgOptions= {
         threshold:0,
-        rootMargin:"0px 0px 30px 0px"};
+        rootMargin:"0px 0px 60px 0px"};
 
 const imgObserver= new IntersectionObserver((entries,imgObserver) =>{
     entries.forEach(entry =>{
@@ -28,5 +27,4 @@ const imgObserver= new IntersectionObserver((entries,imgObserver) =>{
 images.forEach(image =>{
     imgObserver.observe(image);
 });
-
 
