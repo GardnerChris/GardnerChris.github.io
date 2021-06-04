@@ -17,6 +17,7 @@ main{
 }
 img{
     max-width: 100%;
+    height:auto;
     box-shadow:0px 6px 6px 0px #888;
     filter: blur(0em);
     transition: filter 0.5s;
