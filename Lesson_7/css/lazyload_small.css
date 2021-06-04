@@ -19,7 +19,7 @@ img{
     max-width: 100%;
     box-shadow:0px 6px 6px 0px #888;
     filter: blur(0em);
-    transition:filter 0.5s;
+    transition: filter 0.5s;
 }
 img[data-src] {
     filter: blur(0.2em);
