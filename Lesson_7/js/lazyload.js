@@ -9,7 +9,7 @@ function preloadImage (img){
 }
 
     let imgOptions= {
-        threshold:1,
+        threshold:0,
         rootMargin:"0px 0px 60px 0px"};
 
 let imgObserver= new IntersectionObserver((entries,imgObserver) =>{
