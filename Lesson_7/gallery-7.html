@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery of 9 weather related images that progressively load">
+    <link rel="stylesheet" href="css/main_gallery.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/iconfinder_icon-59_667368.png" alt="weather logo">
+        <div class="headingTxt">
+        <h1>On-Point Weather</h1>
+        <h5>"Your precise weather source."</h5>
+        </div>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navAll" class="hide">
+            <li><a href="#">Home</a></li> 
+            <li><a href="../Lesson_6/preston-6.html">Preston</a></li>     
+            <li><a href="#">Soda-Springs</a></li>
+            <li><a href="#">Fish-Haven</a></li> 
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <h2>Weather Gallery</h2>
+    <article class="image_group">
+        
+         <picture><img src="https://plchldr.co/i/400x400?&bg=888&fc=0000&text=400 X 400" data-src="img/pexels-mabel-amber-125457.jpg" alt="Image of puffy clouds and green grass on summer day."><p class="imgInfo">Puffy clouds and green grass</p></picture></div>
+      
+        <picture><img src="https://plchldr.co/i/400x400?&bg=888&fc=0000&text=400 X 400" data-src="img/pexels-pixabay-258136.jpg" alt="Image of distant image of a lake mountians and mild haze."><p class="imgInfo">Hazy mountain view over a lake</p></picture>
+        
+        <picture><img src="https://plchldr.co/i/400x400?&bg=888&fc=0000&text=400 X 400" data-src="img/pexels-brett-sayles-1431822.jpg" alt="Image of sunrays shining through clouds."><p class="imgInfo">Sunrays shining through the clouds</p></picture>
+            
+        <picture><img src="https://plchldr.co/i/400x400?&bg=888&fc=0000&text=400 X 400" data-src="img/pexels-pixabay-459451.jpg" alt="Image of puddle of water during rain storm."><p class="imgInfo">Water drops during a rainstorm</p></picture>
+        
+        <picture><img src="https://plchldr.co/i/400x400?&bg=888&fc=0000&text=400 X 400" data-src="img/pexels-pixabay-53459.jpg" alt="Image of a lighting strike with mountain in the distance."><p class="imgInfo">Large lighting strikes</p></picture>
+    
+        <picture><img src="https://plchldr.co/i/400x400?&bg=888&fc=0000&text=400 X 400" data-src="img/pexels-alex-kozlov-5472685.jpg" alt="Image of autmun leaves on trees."><p class="imgInfo">Autumn leaves on a tree</p></picture>
+    
+        <picture><img src="https://plchldr.co/i/400x400?&bg=888&fc=0000&text=400 X 400" data-src="img/pexels-guillaume-meurice-1591447.jpg"alt="Image of country trial with autumn leaves on the ground"><p class="imgInfo">Cloudy Day With Autumn Leaves.</p></picture>
+    
+        <picture><img src="https://plchldr.co/i/400x400?&bg=888&fc=0000&text=400 X 400" data-src="img/pexels-binyamin-mellish-108941.jpg"alt="Image of a rainbow over a grassy field"><p class="imgInfo">Rainbow over a grassy field</p></picture>
+    
+        <picture><img src="https://plchldr.co/i/400x400?&bg=888&fc=0000&text=400 X 400" data-src="img/pexels-freestocksorg-839462.jpg" alt="Image of snow covered road and trees without leaves"><p class="imgInfo">Snowy country road</p></picture>
+    </article>
+</main>
+<footer>
+    <p>&copy;<span id="currYear"></span> | Christopher Gardner | Utah- United States of America | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></p>
+   <span id="lastmod"></span> | <span id="sinceVisit"></span></p>
+</body>
+<script src="js/gallery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Merriweather', 'Roboto']
+    }
+  });
+  </script>
+</html>
