@@ -1,13 +1,14 @@
 @media only screen and (min-width: 60rem) {
-main{
+     main{
     max-width: 100%;
-}
+    }
+    
     .headingTxt{
-        font-size: x-large;
-        margin:0;
+        font-size:25px;
+        margin-top:0;
     }
     .headingTxt h5{
-        padding-bottom: 2%;
+        padding-bottom: 1%;
     }
     nav ul li a:hover{
         padding:12px;
@@ -19,9 +20,12 @@ main{
         display:block;
         
     }
+    h1{
+        padding-top: 0;
+    }
     h4{
-        margin-left: 10%;
         font-size: 1.5em;
+        margin-left:12%;
     
     }
     .image_group{

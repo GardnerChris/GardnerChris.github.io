@@ -13,16 +13,16 @@ header{
     text-align: start;
     padding-bottom:5px;
 }
-h2{
+h4{
     background: #EBEBEB;
-    margin-bottom:93px;
+    margin-left:44px;
 }
 .headingTxt h2{
     padding:34px;
 
 }
 .headingTxt h5{
-    text-align: start;
+    margin-left:15%;
     padding-bottom:20px;
 }
 header{
@@ -39,6 +39,7 @@ nav ul li a{
     border:none;
     padding:.8em;
     text-align: center;
+    font-size:.9em;
 }
 nav ul.hide{
     display:flex;
