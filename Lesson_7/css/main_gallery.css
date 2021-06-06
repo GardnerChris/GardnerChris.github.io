@@ -2,30 +2,42 @@ header, footer{
     background-color: #242582;
     color:white;
     font-family:"Merriweather",Georgia, serif;
+    font-size:12px;
 
 }
+
 
 header h1, header h5{
     text-shadow: 3px 3px 3px black;
     padding:0;
-    margin:0; 
+    margin-top:2px; 
+
 }
 header h1{
     font-size: 1.2em;
     padding:2% 2%;
+    margin:0;
 }
 h1,h2,h3,h4,h5{
     font-family:"Merriweather", Georgia, serif;
 }
-h2{
-    margin:0;
-    padding:2%;   
+header h2{
+    margin:0;   
     text-shadow: 3px 3px 3px #ccc;
+    font-size: 14px;
+    line-height: 1.15;
+}
+footer p, footer a{
+    font-size:12px;
+    line-height:2em;
+}
+main h2{
+    margin-top:25%;
 }
 .logo{
     float:left;
-    max-width: 55px;
-    padding:5px;
+    max-width: 30px;
+    padding:5px
 
 }
 nav button{
@@ -50,7 +62,7 @@ nav ul{
     padding:0;
     font-size: .9em;
     border-radius: 5px;
-    
+    margin:0;
 }
 nav ul li a{
     display: block;
@@ -78,7 +90,7 @@ nav ul li.active{
 }
 .headingTxt{
     font-size: 1.1em;
-    padding-bottom:1em
+    padding-bottom:0
 }
 #pancake{
     display:none;
@@ -106,11 +118,9 @@ footer a{
 }
 .logo{
     float:left;
-    max-width: 55px;
-    padding:5px;
+    max-width: 45px;
+    padding:5px;        
 
-
-         
 }
 .image_group{
     display:flex;
@@ -119,31 +129,35 @@ footer a{
     max-width:100%;
     grid-gap:30px;
     margin-right:0;
+    padding:0;
 }
 img{
     max-width: 100%;
-    margin-right:10px;
 }
 
 img[data-src]{
     max-width: 100%;
     
 }
-
+.imgPic{
+    background-color: #73956F;
+    padding:0;
+    box-shadow:0 5px 8px 0 rgba(0 0 0 /30%);
+}
 .imgInfo{
     text-align: center;
-    color:black;
-
+    color:white;
+    padding-top:0;
+    margin-bottom:22px;
+    max-width: 100%;
+    background-color: #73956F;
 }
 p{
     font-family:"Roboto"; 
     font-size:16px;
+    padding-top:50px;
 }
-picture{
-    padding-bottom:15px; 
-    border:1px solid #888;
 
-}
 main{
     background-color:#EBEBEB;
     max-width: 80%;
@@ -151,4 +165,5 @@ main{
 }
 body{
     background:#EBEBEB;
+        
 }
