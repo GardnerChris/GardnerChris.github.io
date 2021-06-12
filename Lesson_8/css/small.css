@@ -230,6 +230,5 @@ form legend{
     }
     
     form label.top input[type="date"]{
-        font-size: .8rem    ;
+        font-size: .8rem;
     }
-}
