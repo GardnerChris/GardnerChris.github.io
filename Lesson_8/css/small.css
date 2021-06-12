@@ -13,7 +13,6 @@ header h1, header h5{
 }
 h1{
     text-shadow: 2px 2px 2px #ccc;
-    text-align: center;
 }
 header h1{
     font-size: 1.2em;
@@ -41,7 +40,10 @@ footer p, footer a{
 
 }
 nav button{
-    margin:.2rem 2%;
+    max-width: 100%;
+    margin-left:-50px;
+    padding-left:0;
+
     background-color: transparent;
     border:none;
     font-size: 1.6rem;
@@ -85,7 +87,7 @@ nav ul li.active{
     clear: both;
   }
   nav ul.hide{
-      display:none;
+      display:none; 
 
 }
 .headingTxt{
@@ -115,13 +117,12 @@ footer a{
 .logo{
     float:left;
     max-width: 65px;
-    padding:5px;        
+    padding:5px;
+        
 
 }
-p{
-    font-family:"Roboto"; 
-    font-size:16px;
-    padding-top:50px;
+form p{
+    font-size:10px;
 }
 
 main{
@@ -208,7 +209,7 @@ form legend{
         box-shadow:0 3px 3px 0 rgba(0 0 0 /10%);
     }
     form label.top input:required{
-        border-left: red solid 5px;
+        border:2px solid rgb(160,0,0)  ;
     }
     form label.top input:required:valid{
         border-left:#73956F solid 5px;
