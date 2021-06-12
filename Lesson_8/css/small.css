@@ -145,8 +145,9 @@ form{
     margin-bottom: 8%;
 }
 h2{
-    text-align: center;
-    padding:5% 5%;
+    text-align: left;
+    padding:5% 4%;
+    text-align:center;
     font-size: 1.9rem;
     color:white;
     background-color:#73956F;
@@ -167,10 +168,10 @@ form legend{
         font-weight: 600;
         background-color:#EBEBEB;
         border-radius: 3px;
-        border:2px solid #73956F;
+        border:1px solid black;
         margin:0 0;
         padding:0 .5rem;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     form label.top, form div, form label.sbs{
@@ -193,7 +194,6 @@ form legend{
     }
     form label.sbs{
         display: block;
-        color:#555;
         padding:.2rem;
         
     }
@@ -204,7 +204,7 @@ form legend{
         color:black;
         border-radius: 10px;
         padding:.75rem 1.5rem;
-        margin: 0 0 2rem 2%;
+        margin: 0 0 2rem 10%;
         max-width:20rem;
         box-shadow:0 3px 3px 0 rgba(0 0 0 /10%);
     }

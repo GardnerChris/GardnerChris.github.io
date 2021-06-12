@@ -37,34 +37,14 @@ main{
        width: 70px;
        height: 70px;
    }
-   .image_group{
-       display:grid;
-       grid-template-columns: repeat(3, 1fr);
-       grid-template-rows: repeat(3, 465px);
-       justify-content: center;
-       max-width: 1230px;
-       margin:0 auto;
-       grid-gap:30px;
-       padding-top:1em;
-
-   }
-   .imgInfo{
-       padding-right:0;
-       font-size: 16px;
-   }
-   img:hover{
-       opacity:.5;
-       
-   }
-   .imgPic{
-       border:none; 
-       max-width: 400px;
-       background: #73956F;
-       
-  
-}
 p, a{
    font-size: 16px;
+
+
+}
+/*-----------------Form-----------------*/
+form{
+    max-width: 90%;
 
 }
 form label.sbs{
@@ -74,5 +54,14 @@ form label.sbs{
 form label.sbs textarea{
     height: auto;
     padding-bottom: 55px;
+
+}
+main{
+    max-width: 20%;
+    min-width: 600px;
+
+}
+form fieldset{
+    max-width: 90%;
 }
 }
