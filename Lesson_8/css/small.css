@@ -1,0 +1,235 @@
+header, footer{
+    background-color: #242582;
+    color:white;
+    font-family:"Merriweather",Georgia, serif;
+    font-size:12px;
+
+}
+header h1, header h5{
+    text-shadow: 3px 3px 3px black;
+    padding:0;
+    margin-top:2px; 
+
+}
+h1{
+    text-shadow: 2px 2px 2px #ccc;
+    text-align: center;
+}
+header h1{
+    font-size: 1.2em;
+    padding:2% 2%;
+    margin:0;
+}
+h1,h2,h3,h4,h5{
+    font-family:"Merriweather", Georgia, serif;
+}
+header h2{
+    margin:0;   
+    text-shadow: 3px 3px 3px #ccc;
+    font-size: 14px;
+    line-height: 1.15;
+}
+footer p, footer a{
+    font-size:12px;
+    line-height:2em;
+
+}
+.logo{
+    float:left;
+    max-width: 30px;
+    padding:5px
+
+}
+nav button{
+    margin:.2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color:#fff;
+}
+nav{
+    background-color: #BDD4E7;
+    font-family: Verdana, sans-serif;   
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bdd4e7+1,69afe5+100,69afe5+100 */
+    background: rgb(189,212,231); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(189,212,231,1) 1%, rgba(105,175,229,1) 100%, rgba(105,175,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(189,212,231,1) 1%,rgba(105,175,229,1) 100%,rgba(105,175,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(189,212,231,1) 1%,rgba(105,175,229,1) 100%,rgba(105,175,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdd4e7', endColorstr='#69afe5',GradientType=0 ); /* IE6-9 */    
+ }
+nav ul{
+    list-style-type:none;
+    padding:0;
+    font-size: .9em;
+    border-radius: 5px;
+    margin:0;
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgb(0,0,0,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.4);color:#ffff;
+
+}
+nav ul li.active{
+    background-color:rgba(201, 159, 196, 1);
+               
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  nav ul.hide{
+      display:none;
+
+}
+.headingTxt{
+    font-size: 1.1em;
+    padding-bottom:0
+}
+#pancake{
+    display:none;
+    border:2px solid black;
+    background-color: #C99FC4;
+    margin-bottom: 10px;
+    animation: blink 1s;
+    animation-iteration-count: 3;
+
+
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;   
+    padding:1em;
+    
+}
+footer a{
+    color: rgba(189,212,231,1);
+}
+.logo{
+    float:left;
+    max-width: 65px;
+    padding:5px;        
+
+}
+p{
+    font-family:"Roboto"; 
+    font-size:16px;
+    padding-top:50px;
+}
+
+main{
+    background-color:#EBEBEB;
+    max-width: 80%;
+    margin:0 auto; 
+    box-shadow:1px 5px 8px 0 rgba(0 0 0 /60%);
+    padding-left:10%;
+    padding-right:10%;
+    background-color:#73956F;
+    padding-top:0;
+}
+body{
+    background:#EBEBEB;
+}      
+/*------ FORM --------------------------*/
+form{
+    font-size: 16px;
+}
+h2{
+    text-align: center;
+    padding:5% 5%;
+    font-size: 1.9rem;
+    margin-top:8px;
+    color:white;
+    background-color:#73956F;
+    text-shadow: 2px 2px 2px black;
+    
+}
+form fieldset{
+    margin: 2rem 0;
+    border:1px solid black;
+    border-radius: 5px;
+    padding:1.5rem 4%;
+    max-width: 100%;
+    background-color: white;
+    box-shadow:0 5px 8px 0 rgba(0 0 0 /10%);
+    }
+form legend{
+        color:#242582;
+        font-weight: 600;
+        background-color:#EBEBEB;
+        border-radius: 3px;
+        border:2px solid #73956F;
+        margin:0 0;
+        padding:0 .5rem;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    form label.top, form div, form label.sbs{
+        display:block;
+        padding-top:1rem;
+        padding:.7rem 0rem;
+        font-size: .9rem;
+        font-family: "Merriweather";
+    
+    }
+    form label.top input, form label.top select{
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1rem;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding:.30rem;
+        max-width: 20rem;
+        background-color: rgba(0,0,0,0.1);
+    }
+    form label.sbs{
+        display: block;
+        color:#555;
+        padding:.2rem;
+        
+    }
+    form input.submitBtn{
+        border:none;
+        background-color: #C99FC4;
+        border:2px solid #242582;
+        color:black;
+        border-radius: 10px;
+        padding:.75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        max-width:20rem;
+        box-shadow:0 3px 3px 0 rgba(0 0 0 /10%);
+    }
+    form label.top input:required{
+        border-left: red solid 5px;
+    }
+    form label.top input:required:valid{
+        border-left:#73956F solid 5px;
+    }
+    form textarea{
+        width: 100%;
+        height: 150px;
+    }
+    form label.sbs input{
+        padding: .2rem;
+    }
+    input[type="radio"] {
+        margin-right: 5px;
+      }
+
+    form label.top select{
+        padding:1% 1%;
+        line-height: 1rem;
+        font-size: .8rem;
+    }
+    
+    form label.top input[type="date"]{
+        font-size: .8rem    ;
+    }
+}
