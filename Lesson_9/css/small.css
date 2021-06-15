@@ -47,3 +47,6 @@ footer{
     font-size: 18px;
     text-align: center;
 }
+a:hover{
+    color:rgb(55, 43, 187);
+}
