@@ -2,17 +2,20 @@
     display: grid;
     grid-template-columns:1fr;
     justify-content: center;
-    grid-gap:5px;
+    grid-gap:10px;
     padding:20px;
 }
 header{
     text-align: center;
-    color:rgb(55, 43, 187);
+    background-color: #242582;
+    padding:5px;
+    gradient
+
 }
 h1,h2{
-    color:rgb(55, 43, 187);
+    color:#ffff;
     font-family: 'Merriweather';
-    text-shadow: 1px 1px 1px rgb(80, 80, 80);
+    text-shadow: 2px 2px 2px black;
 }
 p{
     font-family: "Roboto";
@@ -22,22 +25,21 @@ section{
     border: 1px solid black;
     padding:10px;
     text-align: center;
-    
-    background-color: rgb(161, 163, 184);
+    background-color: #73956F
     
 }
 img{
     margin-top:10px;
     box-shadow:5px 5px 30px 0px rgb(0 0 0 / 60%);
-    max-width: 90%;
+    max-width: 80%;
     border-radius: 3px;
 }
 body{
-    background-color: #fff;
+    background-color:#EBEBEB;
     justify-content: center;
 }
 main{
-    background-color: rgb(211, 211, 211);
+    background-color:#EBEBEB;
     border-radius: 5px;
     border: 1px solid black;
     box-shadow:5px 5px 30px 20px rgb(0 0 0 / 50%);
