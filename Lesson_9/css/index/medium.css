@@ -61,8 +61,12 @@
     .hero{
         max-width: 70%;;
     }
+    .cards{
+        display:flex;
+        flex-wrap: wrap;
+    }
     .article{
-        max-width: 100%;
+        max-width: 75.9%;
         padding-bottom:7%;
     }
     .artImg{
@@ -127,25 +131,8 @@
     }
     .social{
         margin-left:0;
+    }
+    
 
-    }
-    .section{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .right:nth-child(odd) img{
-        grid-column: 2/3;
-        max-width: 100%;
-    }
-    .left:nth-child(even){
-        grid-column:1/2;
-        
 
-    }
-    .right:nth-child(even)img{
-        grid-column:1/2;
-    }
-    
-    
-    
 }
