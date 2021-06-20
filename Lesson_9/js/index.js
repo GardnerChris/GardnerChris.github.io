@@ -97,6 +97,7 @@ fetch(requestURL)
       currentPopulation.textContent = "Current Population: " + towns[i].currentPopulation;
       rainFall.textContent="Average Rain Fall (inches): " + towns[i].averageRainfall;
       
+
       
       /*append node*/
       card.appendChild(townName);
@@ -110,15 +111,34 @@ fetch(requestURL)
       
 document.querySelector("div.cards").appendChild(card);
 
-    if (twn== 1){
+    if (twn== 0){
     image.setAttribute("src","img/newhaven.jpg")
-        const middle=document.createElement("id")
+    image.className="right"
+    motto.className="left"
+    yearFounded.className="left"
+    currentPopulation.className="left"
+    rainFall.className="left"
+    townName.className="left"
     }
-    if (twn==2){
+    if (twn==1){
         image.setAttribute("src","img/sodaSprings.jpg")
+        image.className="left"
+        motto.className="right"
+        yearFounded.className="right"
+        currentPopulation.className="right"
+        rainFall.className="right"
+        townName.className="right"
+   
     }
-    if(twn==0){
+    if(twn==2){
         image.setAttribute("src","img/preston.jpg")
+        image.className="right"
+        motto.className="left"
+        yearFounded.className="left"
+        currentPopulation.className="left"
+        rainFall.className="left"
+        townName.className="left"
+     
     }
 }   
 });
