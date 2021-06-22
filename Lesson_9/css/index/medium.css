@@ -27,7 +27,7 @@
     }
     .head{
         padding:0;
-    }
+        }
     nav button{
         display:none;
     }
@@ -132,7 +132,35 @@
     .social{
         margin-left:0;
     }
+    .cards{
+        text-align: center;
+    }
+
+    .cards section{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .data{
+        grid-column: 2;
+        grid-row:1 span/3;
+    }
+    .cards section:nth-child(odd) img{
+        grid-column:2;
+        grid-row:1;   
+        padding:20px;
+        justify-content: center;    
+        max-width: 90%;
+    }
+    .cards section:nth-child(even) img{
+        grid-column: 1;
+        justify-self:center;
+        max-width: 90%;
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+}
+
     
 
 
-}
+
