@@ -99,8 +99,6 @@ fetch(requestURL)
       data.setAttribute("id","data");
      
       
-
-      
       /*append node*/
       card.appendChild(townName);
       card.appendChild(motto);
@@ -117,21 +115,24 @@ fetch(requestURL)
       data.appendChild(rainFall);
       
       
-document.querySelector("div.cards").appendChild(card);
+    document.querySelector("div.cards").appendChild(card);
 
     /*----------Set Image Attributes---------*/
     if (twn== 0){
         image.setAttribute("src","img/newhaven.jpg");
+        image.setAttribute("alt", "Picture of the town Fish Haven.")
         image.setAttribute("div", "img")
 
     }
     if (twn==1){
         image.setAttribute("src","img/sodaSprings.jpg")
+        image.setAttribute("alt", "Picture of Soda-Springs.")
         image.setAttribute("div", "img")
    
     }
     if(twn==2){
         image.setAttribute("src","img/preston.jpg")
+        image.setAttribute("alt", "Picture of the town Preston.")
         
     
     }
