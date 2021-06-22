@@ -1,0 +1,271 @@
+header, footer{
+    background-color: #242582;
+    color:white;
+    font-family:"Merriweather",Georgia, serif;
+    font-size:12px;
+
+}
+header h1, header h5{
+    text-shadow: 3px 3px 3px black;
+    padding:0;
+    margin-top:2px; 
+
+}
+h1{
+    text-shadow: 2px 2px 2px #ccc;
+}
+header h1{
+    font-size: 1.2em;
+    padding:2% 2%;
+    margin:0;
+}
+h1,h2,h3,h4,h5{
+    font-family:"Merriweather", Georgia, serif;
+}
+header h2{
+    margin:0;   
+    text-shadow: 3px 3px 3px #ccc;
+    font-size: 14px;
+    line-height: 1.15;
+}
+footer p, footer a{
+    font-size:14px;
+    line-height:2em;
+
+}
+.logo{
+    float:left;
+    max-width: 55px;
+    padding-bottom:5px
+
+}
+nav button{
+    max-width: 100%;
+    margin-left:-50px;
+    padding-left:0;
+
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color:#fff;
+}
+nav{
+    background-color: #BDD4E7;
+    font-family:"Roboto";   
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bdd4e7+1,69afe5+100,69afe5+100 */
+    background: rgb(189,212,231); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(189,212,231,1) 1%, rgba(105,175,229,1) 100%, rgba(105,175,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(189,212,231,1) 1%,rgba(105,175,229,1) 100%,rgba(105,175,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(189,212,231,1) 1%,rgba(105,175,229,1) 100%,rgba(105,175,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdd4e7', endColorstr='#69afe5',GradientType=0 ); /* IE6-9 */    
+ }
+nav ul{
+    list-style-type:none;
+    padding:0;
+    font-size: .9em;
+    border-radius: 5px;
+    margin:0;
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgb(0,0,0,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.4);color:#ffff;
+
+}
+nav ul li.active{
+    background-color:rgba(201, 159, 196, 1);
+               
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  nav ul.hide{
+      display:none; 
+
+}
+.headingTxt{
+    font-size: 1.1em;
+    padding-bottom:0
+}
+#pancake{
+    display:none;
+    border:2px solid black;
+    background-color: #C99FC4;
+    margin-bottom: 10px;
+    animation: blink 1s;
+    animation-iteration-count: 3;
+}
+footer{
+    text-align: center;
+    font-size: 14px;   
+    padding:1em;
+    
+}
+footer a{
+    color: rgba(189,212,231,1);
+}
+footer p{
+    font-size:1em;
+}
+.hero{
+        max-width:95%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 40px;
+        margin-top:20px;
+        box-shadow: 3px 3px 6px 0 rgb(0 0 0 / 60%);
+        border-radius: 4px;
+        overflow: hidden;
+
+}
+body{
+    background-color: #EBEBEB;
+
+}
+/*----------------Town Data---------------*/
+.cards p{
+    font-size: 13px;
+}
+section{
+    font-family: "roboto";
+    background-color:#73956F;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    display:block;
+    box-shadow:5px 5px 10px 5px rgb(0 0 0 / 30%);
+    text-align: center;
+    padding-top:5px;
+    margin-bottom:20px;
+}
+.article{
+    display:block;
+    margin:0 auto;
+    max-width: 95%;
+    border:1px solid black;
+    margin-top:3%;
+    background-color: #C99FC4;;
+    padding-bottom:60px;
+    margin-bottom:3%;
+}
+.artImg{
+    margin-top:20px;
+    max-width: 80%; 
+    margin-left:20px;
+}
+.article h3{
+    padding-left:30px;
+    padding-bottom: 0;
+    margin-bottom: 0;;
+}
+section img{
+    max-width: 90%;
+    padding-bottom:10px;
+}
+.article p{
+    font-size: 14px;
+    padding-left:10px;
+    text-align: left;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.middle{
+    background-color: red;
+}
+.contact{
+    background-color:#73956F;
+    padding-left:2em;
+    max-width: 72.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:1%;
+    padding-bottom: 1em;
+    padding-top:12px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+
+}
+.contact h5{
+    padding-top:30px;
+}
+
+.email{
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 30px;
+    float:left;
+    margin-left:auto;
+    margin-right:auto;
+}
+.phone{
+    background-color: #fff;
+    border-radius: 5px;
+    padding:5px;
+    max-width: 20px;
+    float:left;
+    justify-content: center;
+}
+.phoneP, .emailP{
+    padding-bottom:1em;
+    padding-top:5px;
+}
+.contact h5{
+    font-weight: bolder;
+    font-size: large;
+    margin-top:50px;
+    padding:0;
+    margin-left:0;
+}
+.contact p{
+    margin-left:0;
+    font-size: 14px;
+}
+.prestonMap{
+    float:left;    
+    max-width: 160px;
+    border:2px solid black;
+}
+.contact a:hover{
+    border-bottom:3px solid  #C99FC4;
+    box-shadow:0px 2px 0px rgb(0 0 0 / 30%);
+}
+.social img {
+    max-width: 30px;
+    border-radius: 50px;
+    padding:2px;
+    border:2px solid #555;
+}
+#pancake{
+    display:none;
+    border:2px solid black;
+    background-color: #C99FC4;
+    margin-bottom: 10px;
+    animation: blink 1s;
+    animation-iteration-count: 3;
+}
+        @keyframes blink {
+            0% {
+                opacity: 0;
+                background-color: white;
+              }
+               50%{
+                opacity:.5;
+                background-color:rgba(189,212,231,1);;
+              }
+              100% {
+                opacity: 1;
+                
+    }
+}  
+
+

@@ -87,7 +87,7 @@ fetch(requestURL)
       let currentPopulation = document.createElement("p");
       let image = document.createElement("img");
       let rainFall=document.createElement("p");
-      
+      let data=document.createElement("div");
       
       
       /*call and store information in variables*/
@@ -96,6 +96,8 @@ fetch(requestURL)
       yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
       currentPopulation.textContent = "Current Population: " + towns[i].currentPopulation;
       rainFall.textContent="Average Rain Fall (inches): " + towns[i].averageRainfall;
+      data.setAttribute("id","data");
+     
       
 
       
@@ -106,40 +108,59 @@ fetch(requestURL)
       card.appendChild(currentPopulation);
       card.appendChild(rainFall);
       card.appendChild(image);
-
+      card.appendChild(data);
+      
+      data.appendChild(townName);
+      data.appendChild(motto);
+      data.appendChild(yearFounded);
+      data.appendChild(currentPopulation);
+      data.appendChild(rainFall);
       
       
 document.querySelector("div.cards").appendChild(card);
 
+    /*----------Set Image Attributes---------*/
     if (twn== 0){
-    image.setAttribute("src","img/newhaven.jpg")
-    image.className="right"
-    motto.className="left"
-    yearFounded.className="left"
-    currentPopulation.className="left"
-    rainFall.className="left"
-    townName.className="left"
+        image.setAttribute("src","img/newhaven.jpg");
+        image.setAttribute("div", "img")
+
     }
     if (twn==1){
         image.setAttribute("src","img/sodaSprings.jpg")
-        image.className="left"
-        motto.className="right"
-        yearFounded.className="right"
-        currentPopulation.className="right"
-        rainFall.className="right"
-        townName.className="right"
+        image.setAttribute("div", "img")
    
     }
     if(twn==2){
         image.setAttribute("src","img/preston.jpg")
-        image.className="right"
-        motto.className="left"
-        yearFounded.className="left"
-        currentPopulation.className="left"
-        rainFall.className="left"
-        townName.className="left"
-     
+        
+    
     }
 }   
 });
+/*
+image.className="right"
+motto.className="left"
+yearFounded.className="left"
+currentPopulation.className="left"
+rainFall.className="left"
+townName.className="left"
+}
+if (twn==1){
+image.setAttribute("src","img/sodaSprings.jpg")
+image.className="left"
+motto.className="rightData"
+yearFounded.className="rightData"
+currentPopulation.className="rightData"
+rainFall.className="rightData"
+townName.className="rightData"
 
+}
+if(twn==2){
+image.setAttribute("src","img/preston.jpg")
+image.className="right";
+motto.className="left"
+yearFounded.className="left"
+currentPopulation.className="left"
+rainFall.className="left"
+townName.className="left"
+*/
