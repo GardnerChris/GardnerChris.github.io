@@ -137,30 +137,4 @@ document.querySelector("div.cards").appendChild(card);
     }
 }   
 });
-/*
-image.className="right"
-motto.className="left"
-yearFounded.className="left"
-currentPopulation.className="left"
-rainFall.className="left"
-townName.className="left"
-}
-if (twn==1){
-image.setAttribute("src","img/sodaSprings.jpg")
-image.className="left"
-motto.className="rightData"
-yearFounded.className="rightData"
-currentPopulation.className="rightData"
-rainFall.className="rightData"
-townName.className="rightData"
 
-}
-if(twn==2){
-image.setAttribute("src","img/preston.jpg")
-image.className="right";
-motto.className="left"
-yearFounded.className="left"
-currentPopulation.className="left"
-rainFall.className="left"
-townName.className="left"
-*/
