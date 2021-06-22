@@ -137,8 +137,6 @@ body{
 section{
     font-family: "roboto";
     background-color:#73956F;
-    color:white;
-    text-shadow: 2px 2px 2px black;
     display:block;
     box-shadow:5px 5px 10px 5px rgb(0 0 0 / 30%);
     text-align: center;
