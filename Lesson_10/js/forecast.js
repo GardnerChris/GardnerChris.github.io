@@ -1,4 +1,4 @@
-/*-------------------Credit for JSON Filtering---------
+/*-------------------Credit for JSON filtering by day and $ identifier---------
 https://stackoverflow.com/questions/2722159/how-to-filter-object-array-based-on-attributes
 https://www.thoughtco.com/and-in-javascript-2037515
 https://stackoverflow.com/questions/67221312/how-to-filter-out-json-object-from-array-in-javascript
