@@ -34,8 +34,4 @@ else {
   document.getElementById("sinceVisit").innerHTML = "Days elapsed since your last Visit: 0 ";
 }
 
-/*-------------CHANGE STORM SEVERITY RATING--------------*/
-function changeRating(ratings) {
-  document.getElementById("ratingsValue").textContent = ratings;
-}
 
