@@ -2,6 +2,7 @@
 https://stackoverflow.com/questions/2722159/how-to-filter-object-array-based-on-attributes
 https://www.thoughtco.com/and-in-javascript-2037515
 https://stackoverflow.com/questions/67221312/how-to-filter-out-json-object-from-array-in-javascript
+https://stackoverflow.com/questions/53924298/how-to-filter-the-key-value-object-based-on-value-substring
 */
 
 const apiForecast="https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=833287fd200c9d39b282d693f69b5816&units=imperial";
