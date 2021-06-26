@@ -1,7 +1,4 @@
 /*---------------- LAST VISITED---------------*/
-images.forEach(image =>{
-  imgObserver.observe(image);
-})
 
 let newTime=new Date().getTime();
 
