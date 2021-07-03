@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page Web-site for Preston Idaho. 5-day weather forcast, weather summary, and contact information">
+   
+    
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>On-Point Weather</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/iconfinder_icon-59_667368.png" alt="weather logo">
+        <div class="headingTxt">
+        <h1>On-Point Weather</h1>
+        <h5>"Your precise weather source."</h5>
+        </div>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navAll" class="hide">
+            <li><a href="../index.html">Home</a></li> 
+            <li><a href="../../Lesson_11/Preston/preston.html">Preston</a></li>     
+            <li><a href="../../Lesson_11/Soda-Springs/soda_springs.html">Soda-Springs</a></li>
+            <li class="active"><a href="#">Fish-Haven</a></li> 
+            <li><a href="../stormcenter/stormcenter.html">Storm Center</a></li>
+            <li><a href="../gallery/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        
+        <div class="main">
+        <h2 class="prestonHeading">Preston Idaho</h2>   
+        <div class="herodiv">
+        <picture class="hero">
+            <source srcset="img/fishhaven_360.jpg" media="(max-width:360px)">
+            <source srcset="img/fishhaven_640.jpg" media="(max-width:640px)">
+            <source srcset="img/fishhaven_960.jpg" media="(max-width:960px)">
+            <img src="img/fishhaven_960.jpg" alt="picture of mountains, sun, and grass">
+        </picture>
+    
+        <div class="weatherSumArea">
+        <h4 class="weatherSum">Weather Summary</h4>
+        <p>Currently: <span id="currently"></span> (<span id="temp"></span>&#176;F)</p>
+        <p>High: <span id="maxTemp"></span> &#176;F</p>
+        <p>Wind Chill: <span id="wChill"></span> &#176;F</p>
+        <p>Humidity: <span id="humidity"></span>%</p>
+        <p>Wind Speed: <span id="speed"></span> mph</p>
+        </div>
+        </div>
+        <h3 class="fiveDayImg">Five-Day Forecast</h3>
+            <div class="forecast">
+                <table>
+                <tr class=days>
+                    <th class='oneH'><span id="day1"></span></th>
+                    <th class="twoH"><span id="day2"></span></th>
+                    <th class="threeH"><span id="day3"></span></th>
+                    <th class="fourH"><span id="day4"></span></th>
+                    <th class="fiveH"><span id="day5"></span></th>
+                </tr>
+                <tr>
+                    <th class='one'><img id="icon1"></th>
+                    <th class='two'><img id="icon2"></th>
+                    <th class='three'><img id="icon3"></th>
+                    <th class='four'><img id="icon4"></th>
+                    <th class='five'><img id="icon5"></th>
+                  
+                </tr>
+                <tr>
+                    <th class='one'><span id="forecast1"></span>&#176;F</th>
+                    <th class='two'><span id="forecast2"></span>&#176;F</th>
+                    <th class='three'><span id="forecast3"></span>&#176;F</th>
+                    <th class='four'><span id="forecast4"></span>&#176;F</th>
+                    <th class='five'><span id="forecast5"></span>&#176;F</th>
+                </tr>
+            </table>
+            </div>
+        <!--Credit for Table build:
+        https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics -->
+        
+    </div>  
+            <div class="article">           
+            <h4 class="articleTitle">Article Title</h4>
+            <img class="forecastImg" src="img/rsz_landscape-1844229_1280.png" alt="graphic of sunny weather">
+            <p class="articleP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            
+    <section class="contact">
+        <img class="prestonMap" src="img/rsz_prestonmap_1.png" alt="preston map">
+        <div class="contactElements">
+        <h5>Contact Information</h5>
+        <img class="phone" src="img/rsz_iconfinder_phone-call_2561306.png" alt="phone icon">
+        <p class="phoneP">(555) 555-5555</p>
+        <img class="email" src="img/rsz_iconfinder_tilda_icons_1ed_mail_3586360.png" alt="email icon">            
+        <p class="emailP">OnPointWeather@email.com</p>
+        <div class="social">
+        <a href="https://www.facebook.com" target="_blank"><img class="facebookIco" src="img/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook icon"></a>
+        <a href="https://www.twitter.com" target="_blank"><img class="twitterIco" src="img/iconfinder_1_Twitter3_colored_svg_5296516.jpg" alt="twitter icon"></a>
+        <a href="https://www.instagram.com" target="_blank"><img class="instaIco" src="img/iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="Instagram icon"></a>
+        </div>        
+        </div>
+    </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currYear"></span> | Christopher Gardner | Utah- United States of America | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></p>
+       <span id="lastmod"></span><p>Weather information licensed by <a href=https://www.openweathermap.com>OpenWeatherMap</a></p>
+    <script src="js/lesson5.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/fish.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Merriweather', 'Roboto']
+    }
+  });
+  </script>
+  <script src="js/preston.js"></script>
+</body>
+</html>
