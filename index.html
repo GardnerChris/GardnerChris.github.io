@@ -4,50 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Christopher Gardner, BYU-I WDD 230 Assignemnt Portal">
-    <title>Christopher Gardner | WDD 230</title>
-    
-    <link rel="stylesheet" href="Lesson_1/css/normalize.css">
-    <link rel="stylesheet" href="Lesson_1/css/medium.css">
-    <link rel="stylesheet" href="Lesson_1/css/small.css">
-    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="Weather homepage for three cities in Idaho. This includes Preston, Soda-Springs and Fish Haven.">
+    <title>On-Point Home Page</title>
+    <link rel="stylesheet" href="index_css/small.css">
+    <link rel="stylesheet" href="index_css/medium.css">
+    <link rel="stylesheet" href="index_css/large.css">
+    <link rel="stylesheet" href="index/normalize.css">
 
 </head>
 <body>
-    <div id="main">
-    <div class="merriweather">
-    <header><img src="Lesson_1/img/me.jpg" alt="Personal picture outside">
-    <h1>Christopher Gardner</h1></header>   
-<h2>WDD 230: Assignment Portal</h2><hr/>
-</div>  
-<ul>
-    <li>Lesson 2: <a href="Lesson_2/design-principles.html">Design-Principles</a></li>
-    <li>Lesson 3: <a href="Lesson_3/index.html">Website Planning</a></li>
-    <li>Lesson 4: <a href="Lesson_4/preston-4.html">Responsive Menu</a></li>
-    <li>Lesson 5: <a href="Lesson_5/bom.html">DOM Manipulation</a></li>
-    <li>Lesson 5: <a href="Lesson_5/preston-5.html">Preston Page Continued</a></li>
-    <li>Lesson 6: <a href="Lesson_6/preston-6.html">Responsive Images</a></li>
-    <li>Lesson 7: <a href="Lesson_7/gallery-7.html">Responsive Images</a></li>
-    <li>Lesson 8: <a href="Lesson_8/tablebuild.html">Table Build</a></li>
-    <li>Lesson 9: <a href="Lesson_9/prophets.html">JSOM</a><a href="Lesson_9/home-wireframes.html"> | Wireframes</a><a href="Lesson_9/index.html"> | Home Page</a>
-    <li>Lesson 10: <a href="Lesson_10/api-test.html">API</a><a href="Lesson_10/preston-10.html"> | Preston Continued</a>
-</ul>
-<main>
- <footer class="merriweather">
-     <p>&copy;<span id="currYear"></span> | Christopher Gardner | Utah- United States of America | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></p>
-    <span id="lastmod"></span>
-    <script src="Lesson_1/js/Portal.js"></script>
-   
-</footer>
-</main>
+    <header>
+        <div class="head">
+        <img class="logo" src="index_img/iconfinder_icon-59_667368.png" width="65" height="65" alt="weather logo">
+        <div class="headingTxt">
+        <h1 id="name">On-Point Weather</h1>
+        <h5>"Your precise weather source."</h5>
+        </div>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navAll" class="hide">
+            <li  class="active"><a href="#">Home</a></li> 
+            <li><a href="preston/preston.html">Preston</a></li>     
+            <li><a href="Soda-Springs/soda_springs.html">Soda-Springs</a></li>
+            <li><a href="Fish-Haven/fish_haven.html">Fish-Haven</a></li> 
+            <li><a href="stormcenter/stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
 </div>
+</header>
+    <main>
+        <img class="hero" src="index_img/rsz_mountain-2248686_1920.jpg" alt="image of mountains at sunset">
+        <div class="cards"></div>
+    <div class="article">
+        <h3>Article</h3>
+        <img class="artImg" src="index_img/rsz_1pexels-mabel-amber-125457.jpg" alt="grass and puffy clouds">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        </p>
+        
+        </div>
+    </main>
+    <div class="contact">
+        <img class="prestonMap" src="index_img/rsz_prestonmap_1.png" alt="preston map">
+        <div class="contactElements">
+        <h5>Contact Information</h5>
+        <img class="phone" src="index_img/rsz_iconfinder_phone-call_2561306.png" alt="phone icon">
+        <p class="phoneP">(555) 555-5555</p>
+        <img class="email" src="index_img/rsz_iconfinder_tilda_icons_1ed_mail_3586360.png" alt="email icon">            
+        <p class="emailP">OnPointWeather@email.com</p>
+        <div class="social">
+        <a href="https://www.facebook.com" target="_blank"><img class="facebookIco" src="index_img/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook icon"></a>
+        <a href="https://www.twitter.com" target="_blank"><img class="twitterIco" src="index_img/iconfinder_1_Twitter3_colored_svg_5296516.jpg" alt="twitter icon"></a>
+        <a href="https://www.instagram.com" target="_blank"><img class="instaIco" src="index_img/iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="Instagram icon"></a>
+        </div>        
+        </div>
+    </div>
+
+    <footer>
+    <p>&copy;<span id="currYear"></span> | Christopher Gardner | Utah- United States of America | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></p>
+   <span id="lastmod"></span> | <span id="sinceVisit"></span>
+</footer>
+<script src="index_js/index.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script>
-  WebFont.load({
+ WebFont.load({
     google: {
-      families: ['Merriweather', 'Roboto', "Pattaya"]
+      families: ['Merriweather', 'Roboto']
     }
   });
-</script>
+  </script>
 </body>
 </html>
