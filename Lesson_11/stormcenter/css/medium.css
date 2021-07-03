@@ -1,0 +1,58 @@
+@media only screen and (min-width:40rem){
+    main{
+        max-width: 75%;
+        margin:0 auto;
+    }
+        .headingTxt{
+        font-size: 1.3em; 
+    }
+    .headingTxt h1{
+        padding-top:1em;
+        padding-bottom:5px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: start;
+    }
+    .headingTxt h5{
+        padding-top:0;
+        text-align: start;
+    }
+    h4{
+        margin: 0;
+        padding:0;    
+    }
+    nav button{
+        display:none;
+    }
+    nav ul li a{
+        border:none;
+        padding:.8em;
+        text-align: center;
+    }
+    nav ul.hide{
+        display:flex;
+        justify-content: center;
+        margin: 2% 2% 0;
+        justify-content:center;
+    }
+    nav ul{
+        margin:0;
+        padding:0;
+        font-size: 1.2em;
+    }
+    nav ul li{
+        padding:0px;
+        font-size:1rem;
+    
+    }    
+    .logo{
+        max-width: 75px;
+        margin-left:11%;
+        padding-top:1em;
+    }
+    body{
+        padding:0;
+        background-color: #EBEBEB;
+        padding-top:0;
+    
+    }

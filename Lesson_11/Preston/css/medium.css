@@ -1,0 +1,182 @@
+@media only screen and (min-width:40rem){
+    main{
+        max-width: 75%;
+        margin:0 auto;
+    }
+        .headingTxt{
+        font-size: 1.3em; 
+    }
+    .headingTxt h1{
+        padding-top:1em;
+        padding-bottom:5px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: start;
+    }
+    .headingTxt h5{
+        padding-top:0;
+        text-align: start;
+    }
+    h4{
+        margin: 0;
+        padding:0;    
+    }
+    nav button{
+        display:none;
+    }
+    nav ul li a{
+        border:none;
+        padding:.8em;
+        text-align: center;
+    }
+    nav ul.hide{
+        display:flex;
+        justify-content: center;
+        margin: 2% 2% 0;
+        justify-content:center;
+    }
+    nav ul{
+        margin:0;
+        padding:0;
+        font-size: 1.2em;
+    }
+    nav ul li{
+        padding:0px;
+        font-size:1rem;
+    
+    }    
+    .logo{
+        max-width: 75px;
+        margin-left:11%;
+        padding-top:1em;
+    }
+    body{
+        padding:0;
+        background-color: #EBEBEB;
+        padding-top:0;
+    
+    }
+    .hero img{
+        box-shadow:0px 6px 6px 0 rgb(0 0 0 / 40%);
+        max-width: 100%;
+    }
+    div.main{
+        margin:0;
+    }
+    .weatherSumArea{
+        position:absolute;
+        left:1em;
+        top:11px;
+        color:#EBEBEB;
+        border:3px solid #0000;
+        background:radial-gradient(#BDD4E7, #242582);
+        line-height: 0%;
+        box-shadow: 0 0 20px #000000;
+        border:1px solid #ccc;
+     }
+     .weatherSum{
+         padding:1em;
+     }
+    .prestonHeading{
+        text-shadow: 3px 3px 3px #ccc;
+        padding-left:2px;
+    
+        }
+        .forecast{
+            border:1px solid black;
+            display:block;
+        }
+    table{
+            border-collapse: collapse;
+            width:100%;
+            font-family: "Roboto";
+            font-size: 1.2em;
+            box-shadow:0px 4px 8px 0 rgb(0 0 0 / 30%);
+          
+        }
+    .fiveDay{
+        text-align: left;
+        background: #EBEBEB;
+        border:none;
+        padding-top:35px;
+     
+    }
+    .fiveDayImg{
+        display: flex;
+        text-shadow: 3px 3px 3px #ccc;
+        padding-top:50px;
+        padding-left:5px;
+       
+    }
+    .oneH,.twoH,.threeH,.fourH,.fiveH{
+        background:#73956F;
+        margin:20px;
+        padding:1em;
+        opacity: .9;
+        box-shadow:0px 3px 3px 0 rgb(0 0 0 / 30%);
+        border:1px solid #ccc;
+        font-weight: 600;
+    }
+    .one, .two, .three, .four, .five{
+        background-color:   #C99FC4;
+        padding-bottom: 1em;
+        font-weight: 300;
+    
+    }
+    .articleTitle{
+        padding-top:1em;
+        text-shadow: 3px 3px 3px #ccc;
+        padding-top:30px;
+    }
+    .article p{
+        margin-left:5px;
+    
+    }
+    .forecastImg{
+        box-shadow:0px 6px 6px 0 rgb(0 0 0 / 30%);
+        float:right;
+        max-width:460px;
+        border:none;
+        margin: 18px 18px;
+        justify-content: center;
+      
+      }
+    .contact{
+        clear:right;
+        background-color:#73956F;
+        border:2px solid black;
+        padding-bottom:1em;
+        max-width: 100%;
+    }
+    .contactElements h5,.contactElements p{
+        margin-left:30%;
+    }
+    .phone, .email{
+        margin-right:10px;
+        box-shadow:0px 3px 3px 0 rgb(0 0 0 / 30%);
+    }
+    .prestonMap{
+        border:2px solid black;
+        box-shadow:0px 2px 2px 3px rgb(0 0 0 / 30%);
+        max-width: 60%;
+        margin-right:15px;
+        float:left;
+    }
+    .forecastGroup{
+        border:none;
+    }
+    .social{
+        display:flex;
+        flex: 1 1 auto;
+        gap:5px;
+    }
+    .facebookIco, .twitterIco, .instaIco{
+        display:block;
+        max-width: 30px;
+        border:1px solid white;
+        background-color:#EBEBEB;
+        border-radius: 50px;
+        padding:1px;
+        box-shadow:0px 6px 6px 0 rgb(0 0 0 / 40%);
+    }
+    }

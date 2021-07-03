@@ -1,0 +1,103 @@
+
+@media only screen and (min-width: 70rem) {
+
+    .headingTxt{
+        font-size: x-large;
+        margin-left:20px;
+        margin-bottom: 56px;
+    }
+    nav ul li a:hover{
+        padding:12px;
+    
+    }
+    nav ul li{
+        font-size:1rem;
+        flex: 1 1 auto;
+        display:block;
+        
+    }
+    .weatherSumArea{
+        top:1.5em;
+        left:1.5em;
+    
+    }
+    .herodiv{
+        max-width: 100%;
+        margin-left:0;
+    }
+    .heroImg{
+        margin:0;
+    }
+    .article{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .article p{
+        margin-left:0;
+        padding-left:1%;
+    }
+    .fiveDayImg p{
+        font-size:1em;
+    }
+    .forecast1,.forecast2,.forecast3,.forecast4,.forecast5{
+        max-width: 150px;
+        padding:15px;
+    } 
+    .contact{
+        padding-bottom: 13%;
+        padding-top:0;
+        margin:0;
+    }
+    .forecastImg{
+        margin-right:0;
+    }
+    .contact h5{
+        font-weight: bolder;
+        font-size: larger;
+        margin-top:25%;
+        padding:0;
+        margin-left:0;
+    }
+    .contact p{
+        margin-left:0;
+    }
+    .contactElements{
+        margin-left:60%;
+    }
+    .prestonMap{
+        float:left;
+        margin-left:9rem;    
+        max-width: 460px;
+    }
+    .contact a:hover{
+        border-bottom:3px solid  #C99FC4;
+        box-shadow:0px 2px 0px rgb(0 0 0 / 30%);
+    
+    }
+    .table{
+        max-width: 100%;
+    }
+    }
+/*-----------------Form-----------------*/
+form{
+    max-width: 90%;
+
+}
+form label.sbs{
+    margin-right:55px;
+  
+}
+form label.sbs textarea{
+    height: auto;
+    padding-bottom: 55px;
+
+}
+main{
+    max-width: 20%;
+    min-width: 600px;
+
+}
+form fieldset{
+    max-width: 90%;
+}
+}

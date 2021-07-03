@@ -1,0 +1,237 @@
+header, footer{
+    background-color: #242582;
+    color:white;
+    font-family:"Merriweather",Georgia, serif;
+    padding:0;
+}
+
+header h1, header h5{
+    text-shadow: 3px 3px 3px black;
+    padding:0;
+    margin:0; 
+}
+header h1{
+    font-size: 1.2em;
+    padding:2% 2%;
+}
+h1,h2,h3,h4,h5{
+    font-family:"Merriweather", Georgia, serif;
+}
+header clearfix{
+margin-bottom:50px;
+}
+p{
+    font-family:"Roboto", Arial, sans-serif; 
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    margin-top:10px;    
+}
+body{
+    margin:0 auto;
+    box-shadow:0 3px 6px 0 rgb(0 0 0 / 30%);
+    
+}
+main{
+    max-width: 100%;
+}
+h5{
+    font-size:.9em;
+    padding-bottom: 2em;
+    padding-top:0em;
+    margin-bottom:1em;
+}
+footer{
+    padding:1em;
+}
+footer a{
+    color: rgba(189,212,231,1);
+}
+.logo{
+    float:left;
+    max-width: 55px;
+    padding:5px;
+
+}
+nav button{
+    margin:0;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color:#fff;
+}
+nav{
+    background-color: #BDD4E7;
+    font-family: Verdana, sans-serif;   
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bdd4e7+1,69afe5+100,69afe5+100 */
+    background: rgb(189,212,231); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(189,212,231,1) 1%, rgba(105,175,229,1) 100%, rgba(105,175,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(189,212,231,1) 1%,rgba(105,175,229,1) 100%,rgba(105,175,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(189,212,231,1) 1%,rgba(105,175,229,1) 100%,rgba(105,175,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdd4e7', endColorstr='#69afe5',GradientType=0 ); /* IE6-9 */    
+ }
+nav ul{
+    list-style-type:none;
+    padding:0;
+    font-size: .9em;
+    border-radius: 5px;
+    
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgb(0,0,0,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.4);color:#ffff;
+
+}
+nav ul li.active{
+    background-color:rgba(201, 159, 196, 1);
+               
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  nav ul.hide{
+      display:none;
+         
+}
+.herodiv{
+    position:relative;
+    margin-left:5%;
+    max-width: 90%;
+}
+.weatherSumArea{
+    position: relative;
+    display: block;
+    line-height: .5em;
+}
+.prestonHeading{
+    margin:0;
+    padding:1em;
+}
+p{
+    margin:0;
+    padding:1em;
+}
+.headingTxt{
+    font-size: 1.1em;
+    padding-bottom:1em
+}
+
+.hero img{
+    margin:auto;
+    position: relative;
+    max-width: 100%;
+    border-radius: 4px;
+
+}   
+.first{
+    padding-left:1em;
+    line-height: 0%;
+}
+.fiveDay{
+    background-color: #C99FC4;
+    text-align: center;
+    margin:0;
+    padding:1em;
+}
+.articleTitle{
+    padding-left:1em;
+    padding-bottom:1em;
+    padding-top:12px;
+    margin:0;
+}
+.article{
+    margin-left:12px;
+    margin-right:12px;
+}
+.fiveDayImg{
+    display:none;
+}
+.forecastGroup {
+    border:2px solid black;
+}
+.forecastImg{
+    display:block;
+    max-width: 70%;
+    margin-left:3%;
+}
+.contact{
+    background-color:#73956F;
+    padding-left:2em;
+    max-width: 95%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 1em;
+    padding-top:12px;
+}
+.contact h5{
+    padding-top:30px;
+}
+
+.email{
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 30px;
+    float:left;
+    margin-left:auto;
+    margin-right:auto;
+}
+.phone{
+    background-color: #fff;
+    border-radius: 5px;
+    padding:5px;
+    max-width: 20px;
+    float:left;
+    justify-content: center;
+}
+.phoneP, .emailP{
+    padding-bottom:1em;
+    padding-top:5px;
+}
+.prestonMap{
+    max-width: 250px;
+    border-radius: 5px;
+    border:2px solid #C99FC4;
+    display:block;
+    margin-top:5%;
+    
+}
+#pancake{
+    display:none;
+    border:2px solid black;
+    background-color: #C99FC4;
+    margin-bottom: 10px;
+    animation: blink 1s;
+    animation-iteration-count: 3;
+}
+@keyframes blink {
+    0% {
+        opacity: 0;
+        background-color: white;
+    }
+    50%{
+        opacity:.5;
+        background-color:rgba(189,212,231,1);;      
+    }
+    100% {
+        opacity: 1;
+                
+}
+}  
+#pancake p{
+    text-align: center;
+}
+.facebookIco, .twitterIco, .instaIco{
+    display:none;
+}
+.forecast{
+    display: none;
+}
