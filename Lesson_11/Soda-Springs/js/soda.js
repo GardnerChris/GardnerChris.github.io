@@ -86,3 +86,16 @@ fetch(townURL)
         
     }}
 });
+
+let newTime=new Date().getTime();
+
+if(localStorage.getItem('time') !=="") {
+    var past = localStorage.getItem('time');
+    localStorage.setItem('time', String(newTime));
+    var difference = Math.floor((newTime - past)/(86400000));
+    document.getElementById('sinceVisit').innerHTML = "Days elapsed since your last visit: " + difference;
+}
+else {
+    localStorage.setItem('time', String(newTime));
+    document.getElementById("sinceVisit").innerHTML = "Days elapsed since your last Visit: 0 ";
+}
