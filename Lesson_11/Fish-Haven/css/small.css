@@ -84,6 +84,8 @@ nav ul li a{
     text-decoration: none;
     color: rgb(0,0,0,0.8);
     border-top: 1px solid rgba(0,0,0,0.3);
+    font-family: "Roboto";
+    font-size: 1.1em;
 }
 nav ul li a:hover{
     background-color: rgba(0,0,0,0.4);color:#ffff;
@@ -148,6 +150,7 @@ p{
 .article{
     margin-left:12px;
     margin-right:12px;
+    background-color: #C99FC4;
 }
 .fiveDayImg{
     display:none;
@@ -231,4 +234,20 @@ p{
 }
 .forecast{
     display: none;
+}
+/*---------Events-----------*/
+.eventCard{
+    text-align: center;
+    font-family: "Roboto";
+    border:2px solid black;
+    margin-left:25%;
+    margin-right:25%;
+    background:radial-gradient(#BDD4E7, #242582);
+    color:white;
+    box-shadow: 0 0 20px #000000;
+    border-radius: 4px;
+    margin-bottom:2%;
+}
+.eventCard h3{
+    text-shadow: 3px 3px 3px black;
 }

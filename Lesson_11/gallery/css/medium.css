@@ -13,6 +13,7 @@ header{
     text-align: start;
     padding-bottom:5px;
     margin-bottom:0;
+    margin-top:0;
 }
 h4{
     background: #EBEBEB;
@@ -35,9 +36,8 @@ nav button{
 }
 nav ul li a{
     border:none;
-    padding:.8em;
+    padding:.7em;
     text-align: center;
-    font-size:1em;
 }
 nav ul.hide{
     display:flex;

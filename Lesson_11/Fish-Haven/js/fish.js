@@ -46,3 +46,45 @@ fetch(apiURL)
     document.getElementById("speed").textContent = Math.round(jsObject.wind.speed);
 
 });
+
+/*-----------------Events----------*/
+
+const townURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+
+fetch(townURL)
+.then(function (response) {
+    return response.json();
+})
+
+.then(function (townURL) {
+ //   console.table(townlist);
+    const towns = townURL["towns"];
+    for (i = 0; i < towns.length; i++) {
+        if (towns[i].name == "Fish Haven") {
+            let eventCard = document.createElement("section");
+            let townName = document.createElement("h3");  
+            let events = document.createElement("p");        
+
+        townName.textContent = "Upcoming Events";
+        events.textContent = towns[i].events;
+        
+        eventCard.appendChild(townName);
+        eventCard.appendChild(events);        
+
+        document.querySelector("div.eventCard").appendChild(eventCard); 
+        
+    }}
+});
+
+let newTime=new Date().getTime();
+
+if(localStorage.getItem('time') !=="") {
+    var past = localStorage.getItem('time');
+    localStorage.setItem('time', String(newTime));
+    var difference = Math.floor((newTime - past)/(86400000));
+    document.getElementById('sinceVisit').innerHTML = "Days elapsed since your last visit: " + difference;
+}
+else {
+    localStorage.setItem('time', String(newTime));
+    document.getElementById("sinceVisit").innerHTML = "Days elapsed since your last Visit: 0 ";
+}
