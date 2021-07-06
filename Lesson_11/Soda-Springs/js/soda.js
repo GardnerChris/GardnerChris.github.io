@@ -1,4 +1,15 @@
 
+function toggleMenu(){
+    document.getElementById("navAll").classList.toggle("hide");
+}
+let date = new Date();
+document.getElementById("currYear").innerHTML= date.getFullYear();
+document.getElementById("lastmod").innerHTML="Last Update: " + document.lastModified;
+
+if (date.getDay()==5){
+    document.getElementById("pancake").style.display= "block" ;
+
+}
 
 /*-----------lazy load-------*/
 let images = document.querySelectorAll("img[data-src]");
@@ -29,7 +40,7 @@ let imgObserver= new IntersectionObserver((entries,imgObserver) =>{
 
 
 /*------------Weather API---------------*/
-const apiURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=833287fd200c9d39b282d693f69b5816&units=imperial";
+const apiURL="https://api.openweathermap.org/data/2.5/weather?id=5607916&APPID=833287fd200c9d39b282d693f69b5816&units=imperial";
 
 
 fetch(apiURL)
@@ -46,6 +57,7 @@ fetch(apiURL)
     document.getElementById("speed").textContent = Math.round(jsObject.wind.speed);
 
 });
+
 /*--------------Event---------------*/
 
 const townURL = "https://byui-cit230.github.io/weather/data/towndata.json";
@@ -74,16 +86,3 @@ fetch(townURL)
         
     }}
 });
-
-let newTime=new Date().getTime();
-
-if(localStorage.getItem('time') !=="") {
-    var past = localStorage.getItem('time');
-    localStorage.setItem('time', String(newTime));
-    var difference = Math.floor((newTime - past)/(86400000));
-    document.getElementById('sinceVisit').innerHTML = "Days elapsed since your last visit: " + difference;
-}
-else {
-    localStorage.setItem('time', String(newTime));
-    document.getElementById("sinceVisit").innerHTML = "Days elapsed since your last Visit: 0 ";
-}

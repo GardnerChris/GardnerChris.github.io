@@ -1,4 +1,6 @@
-
+/*-------Credit for weather API extraction
+https://openweathermap.org/current#current_JSON
+*/
 const apiURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=833287fd200c9d39b282d693f69b5816&units=imperial";
 
 

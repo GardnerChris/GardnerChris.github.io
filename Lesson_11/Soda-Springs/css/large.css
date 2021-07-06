@@ -22,20 +22,28 @@
     
     }
     .herodiv{
-        max-width: 80%;
-        margin-left:auto;
+        max-width: 100%;
+        margin-left:10%;
         margin-right:auto;
     }
     .article{
+        box-shadow: 0 0 20px #ccc;
         margin-left:auto;
         margin-right:auto;
+        margin-top:5%;
+        margin-bottom:3%;
+        padding-bottom:6%;
+        border:2px solid black;
+        background-color: white;
+    }
+    .article h4{
+        font-size: 1.2em;
     }
     .article p{
         margin-left:0;
-        padding-left:1%;
-    }
-    .fiveDayImg p{
-        font-size:1em;
+        padding-left:2%;
+        font-size: 1.2em;
+
     }
     .forecast1,.forecast2,.forecast3,.forecast4,.forecast5{
         max-width: 150px;
@@ -47,7 +55,9 @@
         margin:0;
     }
     .forecastImg{
-        margin-right:0;
+        margin-right:20px;
+        width: 40%;
+        box-shadow: none;
     }
     .contact h5{
         font-weight: bolder;
@@ -74,5 +84,6 @@
     }
     .table{
         max-width: 100%;
+
     }
     }
