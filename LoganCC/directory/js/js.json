@@ -1,0 +1,48 @@
+{
+    "towns": [
+    {
+    "name": "Beehive Grill",
+    "address": "255 S Main St Logan UT 84321",
+    "phone": "(435) 753-2600",
+    "website":"https://thebeehivegrill.com/"
+},
+{
+    "name": "The Joint Chiropractic",
+    "address": "1430 N Main St  Suite 120 Logan  UT 84341",
+    "phone": "(907) 795-8515",
+    "website": "https://www.thejoint.com/utah/logan/logan-45018"
+},
+{
+    "name": "Great Clips",
+    "address": "63 East 1600 North Logan  UT 84341",
+    "phone": "(801) 369-2020",
+    "website": "https://www.greatclips.com/"   
+},
+{
+    "name": "260 East 1400 North Logan UT 84341",
+    "address":"260 East 1400 North Logan UT 84341",
+    "phone":"(435) 227-5304",
+    "website": "Unavailable"
+},
+{
+    "name": "Cache Valley Bank - North Logan",
+    "address":"1710 North Main Street North Logan UT 84341",
+    "phone": "(435) 755-6736",
+    "website": "https://www.cachevalleybank.com/"  
+},
+{
+    "name": "Jack's Tire & Oil",
+    "address":"1795 North  Main Street North Logan UT 84341",
+    "phone": "(435) 752-7897",
+    "website": "https://www.jackstireandoil.com/"  
+},
+{
+    "name": "Cache Valley Community Health Center - North Logan",
+    "address":"1515 N 400 E Suite 104 North Logan UT 84341",
+    "phone": "(435) 755-6061",
+    "website": "https://www.bearlakecommunityhealthcenter.org/"
+}
+
+    ]
+}
+           

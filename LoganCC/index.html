@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page of Logan Valley chamber of commerse. Weather, events, historical information, and a way to join our group can be found here.">
+    <title>Logan Valley CC</title>
+    <link rel="stylesheet" href="index_css/small.css">
+    <link rel="stylesheet" href="index_css/medium.css">
+    <link rel="stylesheet" href="index_css/large.css">
+    <link rel="shortcut icon" href="favicon-96x96.png">
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="index_img/android-icon-72x72.png"><a href="#"></a>
+        <h1>Cache Logan CC</h1>
+        <p>Bringing our community together</p>
+    </header>
+
+    <nav id="navBar">
+      <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navBar2">
+            <li><a id="active" href="#">Home</a></li>
+            <li><a href="city/city.html">Logan City</a></li>
+            <li><a href="directory/directory.html">Directory</a></li>
+            <li><a href="join/join.html">Sign-up</a></li>
+            <li><a href="contact/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img class="hero" src="index_img/LoganUtahCourthouse.jpg" alt="Logan city courthouse">
+        <h2 class="busTitle">Business Spotlight</h2>
+        <section class="spotlight">
+          
+        <table>
+          </thead>
+              <thead class="busImg">
+            <tr>
+              <th><img src="index_img/aggie.jpg"></th>
+              </tr>
+
+              <tr>
+                <th class="aggie">Aggie Ice-cream</th>
+              </tr>
+
+              <tr>
+                <td class="aggieP">750 North 1200 East, Logan, UT, 84322</td>    
+              </tr>
+                
+              <tr>
+                <td>(435) 753-3670</td>
+              </tr>
+
+              <tr>
+                <th><a href="https://www.usu.edu/aggieicecream/" target="_blank">Website</a></th>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <th><img src="index_img/bb.jpg"></th>  
+              </tr>
+
+              <tr>
+                <th class="bbCC">Blue-Bird Candy Company</th>
+              </tr>
+
+              <tr>
+                <td class="bbCCP">470 N Main St, Logan, UT, 84321</td>
+              </tr>
+
+              <tr>
+                <td>(435) 797-2109</td>
+              </tr>
+              <tr>
+                <th><a href="https://www.bluebirdcandy.com" target="_blank">Website</a></th>
+              </tr>
+              </table>
+
+              <table>
+              <tr>
+                <td><img src="index_img/funpark.jpg"></td>
+              </tr>
+
+              <tr>
+                <th class="funPark">Cache Valley Fun Park</th>
+              </tr>
+              
+              <tr>
+                <td class="funParkP">255 East 1770 North, Logan, UT,84341</td>
+              </tr>
+              
+              <tr>
+                <td>(435) 792-4000</td>
+              </tr>
+    
+              <tr>
+                <th><a href="https://cachevalleyfunpark.com/" target="_blank">Website</a></th>
+              </tr>
+        </table>
+      </section>  
+      <div class="eventWeather">
+      <div class="eventCard">
+        <img class="loganImg" src="index_img/logan.jpg" alt="picture of cache valley bank at night.">
+        <h2> Upcoming Events</h2>
+        <p>July 24: Pioneer Day<br>
+        July 31: Adventure Van Expo<br>
+        August 2: Summer Concert</p>
+      </div>    
+        <div class="weatherAPI"> 
+          <h2 class="wh">Weather</h2>
+        <div class="weatherSumArea">
+          <p>Currently: <span id="currently"></span> (<span id="temp"></span>&#176;F)</p>
+          <p>High: <span id="maxTemp"></span> &#176;F</p>
+          <p>Wind Chill: <span id="wChill"></span> &#176;F</p>
+          <p>Humidity: <span id="humidity"></span>%</p>
+          <p>Wind Speed: <span id="speed"></span> mph</p>
+          </div>
+          <div class="overlay">
+          <img class="weatherHeadImg" src="index_img/rsz_clouds-37009_640.png" alt="image of sun and clouds">
+          <img class="weatherHeadImg2" src="index_img/sky.jpg" alt='image of clouds'>
+            <table class="forecast">
+            <tr class="days">
+                <th class='oneH'><span id="day1"></span></th>
+                <th class="twoH"><span id="day2"></span></th>
+                <th class="threeH"><span id="day3"></span></th>
+            </tr>
+            <tr>
+                <th class='one'><img id="icon1"></th>
+                <th class='two'><img id="icon2"></th>
+                <th class='three'><img id="icon3"></th>
+            </tr>
+            <tr>
+                <th class='one'><span id="forecast1"></span>&#176;F</th>
+                <th class='two'><span id="forecast2"></span>&#176;F</th>
+                <th class='three'><span id="forecast3"></span>&#176;F</th>
+            </tr>
+        </table>
+        </div>
+        </div>
+        </div>
+      </div> 
+        <section class="clearfix" id="mission">
+          <h2>Logan Valley CC Mission</h2>
+          <ul>
+            <li>The purpose of Cache Valley CC, is to strengthen business connections, increase revenue, expand clientele, and increase the social capital of Cache Valley residents.</li>
+            <li>For businesses, this is a platform that allows them to advertise important consumer information like product updates, company announcements, and events. This provides a place where businesses and customers can interact while building customer loyalty. </li>
+            <li>For consumers, this is an informational hub geared towards learning about new and current businesses. A list of several influential businesses in Cache Valley provides a solid consumer database for each consumer to have a place where their needs can be met.</li>
+            <li>For all residents, this provides a place to learn historical information about Cache Valley, see upcoming events, and strengthen ties to the communities. Current weather and weather forecasts will be provided to address a range of needs and interests of each resident.</li>
+            <li>For people new to Cache Valley CC, a portal where new members can review plans, understand services, and join a plan based on their needs.</li>
+          </ul>
+        </section>
+        <div class="joinTemple">
+        <section class="join">
+          <h2>Join Us</h2>
+          <p>We want you to be a part of our Logan Valley CC family.
+            We offer several different plans to suite your needs.</p>
+          <ul>
+            <li>Non-profit ($100)</li>
+            <li>Bronze ($200)</li>
+            <li>Silver ($400)</li>
+            <li>Gold ($1000)</li>
+          </ul>
+
+          <p><a href="join/join.html">Learn more.</a></p>
+        </section>
+        <img class="temple2" src="index_img/temple.jpg" alt="Logan LDS temple.">
+        </div>
+    </main>
+    <footer>
+      &copy;2021 | Christopher Gardner | Follow us:  <a href="https://www.facebook.com" target="_blank"><img class="facebook" src="index_img/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook icon"></a><a href="https://www.twitter.com" target="_blank"><img  class="twitter" src="index_img/iconfinder_1_Twitter3_colored_svg_5296516.jpg" alt="twitter icon">
+    </footer>
+    <script src="index_js/index.js"></script>
+    <script src="index_js/windchill.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Playfair Display', 'Montserrat']
+    }
+  });
+  </script>
+</body>
+</html>

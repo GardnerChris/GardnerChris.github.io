@@ -1,0 +1,83 @@
+
+@media only screen and (min-width: 60rem) {
+    body{
+        background-color: #EBF5EE;
+    }
+    main{
+        max-width: 80%;
+        background-color: #EBF5EE;
+        border-radius: 5px;
+        padding-bottom: 30px;
+        margin-bottom:2%;
+        margin:0 auto;
+        display:block
+    }
+    header h1{
+        font-size: 1.9em;
+        margin-left:8%;
+    }
+    header p{
+        font-size:1em;
+        margin-left:8%;
+
+    
+        
+    }
+    #navBar ul{
+        padding-top:10px;
+        padding-bottom:10px; 
+    
+    }
+    #navBar{
+        margin-top:0;
+        margin-bottom:0;
+    }
+    #navBar a{
+        font-size: 1.2em;
+        padding:12px;
+    }
+    main h2{
+        margin:0 auto;
+        padding:3px 90px 3px;
+        font-size: 1.1em;
+        margin:10% 5% 4%
+    
+    }
+    .logo{
+        max-width: 100%;
+    }
+    .fall{
+        max-width: 100%;
+        display: block;
+        margin:0 auto;
+        margin-top:5%;
+    }
+    .first2{
+        display: flex;
+        flex: 1 1 100%;
+        gap:5%;
+        margin-left:5%;
+    }
+    .second2{
+        margin-left:5%;
+    }
+    .dropDown{
+        min-width: 25%;
+    }
+    .user{
+        max-width:400px;
+        padding:1% 10% 0%
+    }
+    .contact{
+        min-width: 25%;
+    }
+    .bus{
+        min-width: 32%;
+    }
+    form fieldset{
+        margin-left:5%;
+    }
+    input.submitBtn{
+        margin-left:35%;
+    }
+}

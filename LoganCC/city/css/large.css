@@ -1,0 +1,111 @@
+@media only screen and (min-width: 60rem) {
+    body{
+        background-color: #EBF5EE;
+    }
+    main{
+        max-width: 90%;
+        background-color: #EBF5EE;
+        border-radius: 5px;
+        padding-bottom: 30px;
+        margin-bottom:2%;
+    }
+    header h1{
+        font-size: 1.9em;
+        margin-left:8%;
+    }
+    header p{
+        font-size:1em;
+        margin-left:8%;
+
+    }
+    h2{
+        font-size: 1.6em;
+        margin-left:25%;
+        margin-right:25%;
+        padding:5px;
+        background:radial-gradient(white 40%,#283044);
+        border-radius:50px;
+
+    }
+ h3{
+        margin-left:25%;
+        margin-right:25%;
+        padding:5px;
+        background:radial-gradient(white 40%,#283044);
+        border-radius:50px;
+        font-size: 1.5em;
+
+    }
+    #navBar{
+        font-size: .95em;
+        padding-left:2%;
+    }
+    #navBar{
+        font-size: .9em;
+    }
+    #navBar ul{
+        padding-top:10px;
+        padding-bottom:10px; 
+    }
+    
+    #navBar a{
+        font-size: 1.2em;
+        padding:11px;
+    }
+    .cityImg{
+        max-width: 70%;
+    }
+    .logo{
+        max-width: 100%;
+    
+    }
+    .demo_people{
+        display:block;
+        float:left;
+        margin-left:10%;
+        margin-top:0%;
+        padding-top:0%;
+        font-size: 1em;
+        
+    }
+    #demo{
+
+        margin-left:12%;
+        position: relative;
+        margin-right:62%;
+        margin-bottom:0;
+    }
+    .demo{
+        min-width: 400px;
+        min-height: 200px;
+        padding-top:10%;
+        font-size:1.1em;
+        margin-top:5%
+    
+    }
+    .people{
+        min-width: 400px;
+        min-height: 200px;
+        padding-top:10%;
+        font-size:1.1em;
+        margin-top:28%
+    }
+    .history{
+        max-width: 40%;
+        margin-left:50%;
+    }
+    #history2{
+        margin-left:55%;
+        margin-right:15%;
+        margin-top:-2.8%;
+    }
+    #climate{
+        margin:0  auto;
+        margin-top:5%;
+        clear:both;
+        margin-left:20%;
+        margin-right:20%;
+        margin-bottom: 2%;
+    }
+
+}

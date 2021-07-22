@@ -1,0 +1,62 @@
+@media only screen and (min-width: 60rem) {
+        body{
+            background-color: #EBF5EE;
+        }
+        main{
+            max-width: 40%;
+            background-color:#78A1BB;
+            border-radius: 5px;
+            padding-bottom: 30px;
+            margin-bottom:2%;
+        }
+        header h1{
+            font-size: 1.9em;
+            margin-left:8%
+        }
+        header p{
+            font-size:1.1em;
+            margin-left:8%;
+        }
+        #navBar ul{
+            padding-top:10px;
+            padding-bottom:10px; 
+        }
+    
+        #navBar a{
+            font-size: 1em;
+            padding:10px
+        }
+        main h2{
+            margin:0 auto;
+            font-size: 1.1em;
+            margin:10% 5% 4%
+        }
+        fieldset legend{
+            font-size: 1.1em;
+        
+        }
+        fieldset{
+            max-width: 30%;
+            font-size: .9em;
+        }
+        .logo{
+            max-width: 100%;
+        }
+        .board_h1{
+            background: radial-gradient(white 30%,#283044);
+            border-radius: 50px;
+            font-size: 1.4em;
+            margin:2% 25% 2%;
+        }
+        .email_phone{
+            max-width: 800px;
+            gap:5%;
+            font-size: 1.2em;
+
+        }
+        .map{
+            border:2px solid #283044;
+            margin: 2% 25% 2%;
+            background-color: white;
+        }
+    }

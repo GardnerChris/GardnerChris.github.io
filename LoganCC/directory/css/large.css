@@ -1,0 +1,71 @@
+@media only screen and (min-width: 60rem) {
+    body{
+        background-color: #EBF5EE;
+    }
+    main{
+        max-width: 90%;
+        background-color: #EBF5EE;
+        border-radius: 5px;
+        padding-bottom: 30px;
+        margin-bottom:2%;
+    }
+    header h1{
+        font-size: 1.9em;
+        margin-left:8%;
+    }
+    header p{
+        font-size:1em;
+        margin-left:8%;
+
+    }
+    #navBar ul{
+        padding-top:10px;
+        padding-bottom:10px; 
+    }
+    
+    #navBar a{
+        font-size: 1.2em;
+        padding:11px;
+    }
+    main h2{
+        margin:0 auto;
+        padding:3px 90px 3px;
+        font-size: 1.1em;
+        margin:10% 5% 4%
+    }
+    fieldset{
+        max-width: 30%;
+    }
+    .logo{
+        max-width: 100%;
+    
+    
+    }
+    .eventCard section{
+        max-width: 600px;
+        height: 150px;
+        margin-left:0;
+    }
+    .eventCard p{
+        font-size: 1em;
+        overflow-x: auto;
+    }
+    .change{
+        margin-left:86.5%;
+        padding-top:12px;
+        font-size: 1em;
+    }
+    .gridBtn{
+    box-shadow: 0px 0px 15px #EBF5EE; 
+    border:2px solid #8B786D;
+    }
+    section h2{
+        padding:0;
+        margin:0;
+        font-size: 1.2em;
+    }
+    section p{
+        font-size: 1em;
+    }
+
+}

@@ -1,0 +1,87 @@
+
+@media only screen and (min-width:40rem){
+        
+main{
+    max-width: 50%;
+    margin:0 auto;
+}
+header h1{
+    font-size: 1.3em;
+}
+header p{
+    font-size: .8em;
+}
+
+header h1, header p{
+    margin-left:10%;
+
+}
+#navBar a{
+    text-decoration: none; 
+    color:#EBF5EE;  
+    text-align: center;
+
+}
+#navBar ul{
+    display:flex;
+    list-style: none;
+    margin:0;
+    padding-top: 5px;
+    padding-bottom:5px; 
+    background: hsla(18, 20%, 68%, 1);
+    background: linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BFA89E", endColorstr="#8B786D", GradientType=1 );
+}
+#navBar ul li{
+    font-size: 1.1em; 
+    font-family:'Montserrat';
+}
+a:hover{
+    background-color:#283044;
+    color:white;
+    border-radius: 0px;
+}
+nav button{
+    display:none;
+}
+nav{
+    padding-left: 2%;
+}
+.logo{
+    max-width:50px;
+
+
+
+}
+.email_phone{
+    max-width: 60%;
+    margin:0 auto;
+    display: flex;
+    flex:1 1 100%;
+    justify-content: center;
+    margin-top:20px'
+}
+.social{
+    padding-bottom:20px;
+}
+.board{
+    display:flex; 
+    flex:1 1 100%;
+    gap:5%;
+    min-width:700px;
+}
+.managing img{
+    max-width: 75%;
+}
+img.chair{
+    max-width: 50%; 
+}
+img.ceo{
+    max-width: 55%;
+}
+ul{
+    padding:0;
+}
+}

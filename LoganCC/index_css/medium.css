@@ -1,0 +1,151 @@
+@media only screen and (min-width:40rem){
+#navBar a{
+    text-decoration: none; 
+    color:#EBF5EE;
+    padding:10px;  
+    font-size: .8em;
+
+}
+#navBar ul{
+    display:flex;
+    list-style: none;
+    background:#BFA89E;
+    margin:0;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    padding-top:4px;
+    padding-bottom:9px; 
+    margin-left:-.5em;
+    background: hsla(18, 20%, 68%, 1);
+    background: linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BFA89E", endColorstr="#8B786D", GradientType=1 );
+}
+#navBar ul li{
+    font-size: 1.1em; 
+    text-align: center;
+    font-family:'Montserrat';
+}
+a:hover{
+    background-color:#283044;
+    color:white;
+    padding: 10px 10px;
+    border-radius: 0px;   
+}
+button{
+    display:none;
+}
+.hero{
+    margin-bottom: 5%;
+    box-shadow: 2px 5px 10px #283044;
+}
+
+main{
+    max-width:100%;
+}
+.busTitle{
+    margin:0;
+    max-width: 100%;
+    border-radius: 5px;
+    background: linear-gradient(90deg,white 10%, #283044);
+}
+h2.busTitle{
+    padding-left:5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+.spotlight table{
+   width:680px;
+   display: block;
+
+}
+.spotlight th{  
+    font-size: 1.5em;
+
+}
+.spotlight tr{
+    float:left;
+}
+table tr th{
+    margin-left: 5%;
+}
+tr td{
+    font-size: 1em;
+
+}
+th.aggie, th.bbCC, th.funPark{
+    padding-top:30%;
+    font-family: "playfair Display";
+}
+table a{
+    font-size: .7em;
+    margin-top:-1px;
+    display: block;
+}
+.eventWeather{
+    max-width: 100%;
+}
+.loganImg{
+    float:left;
+    max-width: 50%;
+    margin-left:1%;
+}
+.eventCard{
+    margin:0 0 0;
+    display: block;
+    width: 86%;
+    margin:0 auto;
+    padding-bottom:15%; 
+}
+.eventCard h2 {
+    font-size: 1em;
+    margin-left:1em;
+}
+.eventCard p{
+    font-size: .8em;
+}
+.weatherAPI{
+    max-width: 83.5%;
+}
+.weatherAPI h2{
+    font-size: 1.1em;
+}
+.weatherSumArea{
+    font-size: 14px;
+    margin:0;
+    max-width: 30%;
+    float:left;
+}
+.weatherHeadImg{
+    margin-top:-3.4em;
+    max-width: 50px;
+    margin-left:1em;
+}
+.weatherHeadImg2{
+    display: none;
+    float:left;
+}
+.forecast tr{
+    font-size: .5em;
+
+}
+.forecast{
+    width: 100%;
+    margin:0 auto;  
+}
+#mission{
+    font-size: 1em;
+}
+#mission p{
+    font-size:1.1em
+}
+.join{
+    font-size:1em;
+}
+.join h2, .join p, .join ul{
+    text-align: left;
+    margin-left:5%;
+}
+}

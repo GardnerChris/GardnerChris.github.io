@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="../favicon-96x96.png">
+
+    
+</head>
+<body>
+    <header>
+      <a href="../index.html"><img class="logo" src="img/android-icon-72x72.png"></a>
+        <h1>Cache Logan CC</h1>
+        <p>Bringing our community together</p>
+    </header>
+    <nav id="navBar">
+      <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navBar2">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../city/city.html">Logan City</a></li>
+            <li><a href="../directory/directory.html">Directory</a></li>
+            <li><a href="../join/join.html">Sign-up</a></li>
+            <li><a id="active" href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+    
+      <h2>We would love to hear from you!</h2>
+      <form method="get" action="thankYou.html">
+      <fieldset>
+        <legend>Your Information</legend>
+        <label class="top">First Name* <input type="text" name="firstName" pattern="[a-zA-Z ]{5,}" required></label>
+        <label class="top">Last Name * <input type="text" name="lastName" pattern="[a-zA-Z ]{5,}" required></label>
+        <label class="top">Cell Phone<input type="tel" name="phone" pattern=".{7,}" placeholder="5551231234"></label>
+        <label class="top">Email * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+        <label class="mid">Message: *<textarea rows="5" form="form_id"></textarea>
+          <button type="button" value="Submit" name="button" class="submitBtn">Send</button>
+      </fieldset>
+      </form>
+      </main> 
+      <div class="email_phone">
+      <div class="phone">
+      <h3>Phone</h3>
+      <p>(555) 555-5555</p>
+      </div>
+
+      <div class="email">
+      <h3>Email</h3>
+      <!--Credit for email trigger https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_mailto_subject-->
+      <p><a href="mailto:someone@example.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!" target="_top">Send email</a></p>
+      </div>
+   
+      <div class="social">
+      <h3>Social Media</h3>
+      <img class="facebook" src="../index_img/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook icon"></a><a href="https://www.twitter.com" target="_blank"><img  class="twitter" src="../index_img/iconfinder_1_Twitter3_colored_svg_5296516.jpg" alt="twitter icon">
+      </a>
+      </div>
+    </div>
+    <h1 class="board_h1">Memebers of the Board</h1>
+    <section class="board">
+      <div class="chairman">
+      <img class="chair" src="img/Chairman.jpg" alt="picture of the chariman of the board">      
+      <h3>Jeorge Chapiero</h3>
+      <ul>
+        <li><strong>Title: </strong>Chairman of the board</li>
+        <li><strong>Residence: </strong>Hyde Park</li>
+        <li><strong>Years served: </strong>2 years</li>
+      </ul>
+      </div>
+      <div class="chief">
+      <img class="ceo" src="img/Ceo.jpg" alt="picture of Chief Executive officer">
+      <h3>Dennis Arriola</h3>
+      <ul>
+        <li><strong>Title: </strong> Chief Executive Officer</li>
+        <li><strong>Residence: </strong>Center Steet</li>
+        <li><strong>Years served: </strong> 8 years</li>
+        </ul>
+        </div>
+        <div class="managing">
+        <img src="img/managing.jpg"  alt="Picture of Managing Director"> 
+        <h3>Jessie J. Knight, Jr.</h3>     
+        <ul>
+        <li><strong>Title: </strong>Managing Director</li> 
+        <li><strong>Residence: </strong>cliff-side</li>
+        <li><strong>Time served: </strong>9 months</li>
+        </ul>
+        </div>
+    </section>
+      <div class="map">
+      <h3>Map of Logan Utah</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d45364.23702757983!2d-111.8432931698631!3d41.74550925742275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1626719482210!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+      <footer>
+        &copy;2021 | Christopher Gardner |
+      </footer>
+    <script src="js/contact.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+          google: {
+            families: ['Playfair Display', 'Montserrat']
+          }
+        });
+        </script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+@media only screen and (min-width:40rem){       
+    form{
+        max-width: 90%;
+        margin:0 auto;
+    }
+    input.submitBtn{
+        margin-left:180px;
+
+    }
+        main{
+            max-width: 80%;
+            margin:0 auto;
+        
+        }
+        header h1, header p{
+            margin-left:10%;
+        }
+        header h1{
+            font-size: 1.3em;
+        }
+        header p{
+            font-size: 1em;
+        }
+        .logo{
+            max-width:50px;
+        }
+        nav{
+            padding-left: -2%;
+        }
+        #navBar a{
+            text-decoration: none; 
+            color:#EBF5EE;
+            padding:7px;  
+            text-align: center;
+        
+        }
+        #navBar ul{
+            display:flex;
+            list-style: none;
+            margin:0;
+            padding-top: 5px;
+            padding-bottom:5px; 
+            background: hsla(18, 20%, 68%, 1);
+            background: linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+            background: -moz-linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+            background: -webkit-linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BFA89E", endColorstr="#8B786D", GradientType=1 );
+        }
+        #navBar ul li{
+            font-size: .9em; 
+            font-family:'Montserrat';
+        }
+        .navBar2{
+            margin-left:20%;
+        }
+        a:hover{
+            background-color:#283044;
+            color:white;
+            border-radius: 0px;
+        }
+        nav button{
+            display:none;
+        
+        }
+        .event{
+            margin-left:0;
+        
+        }
+        .eventCard{
+            max-width: 90%;
+            display:grid;
+            grid-template-columns: repeat(3,35%);
+            grid-gap:1%;
+        
+        }
+        .change{
+            margin-left:85%;
+            font-weight: 600;
+        }
+        .gridBtn{
+            margin-left:91%;
+            cursor: pointer;
+        }
+        .eventCard2{
+            display:block;
+            max-width: 90%;
+        }
+        .eventCard section{
+            justify-items: center;
+            justify-content: center;
+        }
+        input.url{
+            width:173px;
+            height:25px;
+        }
+        .event button{
+            display: block;
+        }
+        .eventCard p{
+            font-size: .6em;
+            overflow-x:auto;
+        }
+        .gridBtn{
+            justify-content: end;
+            font-size: 1em;
+            color:#fff;
+            background-color: #283044;
+        }
+    .first2{
+        display:flex;
+        flex:1 1 auto;
+        min-width: 500px;
+        gap:5%;
+    }
+    .user{
+        min-width: 200px;
+    }
+    .dropDown{
+        width: 200px
+    }
+    .second2{
+        display:flex;
+        min-width:500px;
+        gap: 5%
+    }
+    .bus{
+        min-width: 200px;
+    }
+    .contact{
+        min-width:200px;
+    }
+}
+    
+
+    

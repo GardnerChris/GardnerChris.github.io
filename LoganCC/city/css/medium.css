@@ -1,0 +1,116 @@
+@media only screen and (min-width:40rem){       
+        main{
+            max-width: 80%;
+            margin:0 auto;
+        
+        }
+        body{
+            max-width: 100%;
+        }
+        header h1, header p{
+            margin-left:10%;
+        }
+        header h1{
+            font-size: 1.3em;
+        }
+        header p{
+            font-size: 1em;
+        }
+        .logo{
+            max-width:50px;
+        }
+        nav{
+            padding-left: -2%;
+        }
+        #navBar a{
+            text-decoration: none; 
+            color:#EBF5EE;
+            padding:5px;  
+            text-align: center;
+        
+        }
+        #navBar ul{
+            display:flex;
+            list-style: none;
+            margin:0;
+            padding-top: 5px;
+            padding-bottom:5px; 
+            background: hsla(18, 20%, 68%, 1);
+            background: linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+            background: -moz-linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+            background: -webkit-linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BFA89E", endColorstr="#8B786D", GradientType=1 );
+        }
+        #navBar ul li{
+            font-size: 1em; 
+            font-family:'Montserrat';
+        }
+        .navBar2{
+            margin-left:20%;
+        }
+        a:hover{
+            background-color:#283044;
+            color:white;
+            border-radius: 0px;
+        }
+        nav button{
+            display:none;
+        }
+        h2, h3{
+            font-size: 1.2em;
+        }
+        .demo_people{
+            display: flex;
+            gap:2%;
+            justify-content: space-evenly;      
+            padding:10px;
+        
+        }
+        .demo{
+            padding-bottom:10%;
+            border:none;
+            font-size: 1em;
+            height:100px;
+            box-shadow: 2px 3px 10px #283044;
+        }
+        .people{
+            border:none;
+            height: 100px;
+            box-shadow: 2px 3px 10px #283044;   
+            padding-bottom:10%;
+            font-size: 1em;
+        }
+        .historyImg{
+            border-radius: 5px;
+        
+        }
+        .history{
+            box-shadow: 2px 3px 10px #283044; 
+            border:none;
+            font-size: 1.1em;
+
+        }
+        h3{
+            border-top:1px solid black;
+            border-bottom:1px solid black;
+            padding:5px;
+            margin-left:10%;
+            margin-right:10%;
+            background:radial-gradient(white 40%,#283044);
+            border-radius:50px;
+            font-size: 1.2em;
+        }
+        .weather{
+            border:none;
+            box-shadow: 2px 3px 10px #283044; 
+        
+        }
+        .weather img{
+            display: block;
+            max-width: 100%;
+
+        }
+}
+    
+
+    

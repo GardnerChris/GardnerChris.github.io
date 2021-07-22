@@ -1,0 +1,317 @@
+/*------- Header & Footer-------*/
+h1{
+    font-family: 'Playfair display';
+    margin-left:8%;
+    margin-bottom: 0;
+    margin-top:0;
+
+}
+h1,h2,h3,h4,h5{
+    font-family:'Playfair display';
+}
+p{
+    font-family:'Montserrat';
+}
+header p{
+    margin-left:17%;
+    margin-top:0;
+
+}
+header h1{
+    text-shadow:1px 0px 1px #8B786D;
+    margin-left:17%;
+}
+
+#navBar ul li{
+    list-style: none;
+
+}    
+nav ul.hide{
+    display:none;
+}
+#active{
+    background-color: #283044;
+}
+.hide{
+    display:block;
+}
+nav{
+    font-size: 1.2em;
+    list-style: none;
+    background: hsla(18, 20%, 68%, 1);
+    background: linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(18, 20%, 68%, 0.5) 0%, hsla(22, 12%, 49%, 1) 100%); 
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BFA89E", endColorstr="#8B786D", GradientType=1 );
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+nav a:hover{
+    background-color: #283044;
+}
+.logo{
+    float:left;
+    margin-left:2%;
+    border-radius:10px;
+    border:1px solid black;
+    max-width: 60px;
+}
+header{
+    background:linear-gradient(180deg,#EBF5EE, #78A1BB);
+    padding-bottom: 1em;
+    padding-top: 1em;  
+}
+    nav button{
+        margin-left:2%;
+        border:none;
+        font-size: 1.3em;
+        color:#fff;
+        background-color: #283044;
+}
+body{
+    background-color: #EBF5EE;
+    min-width: 455px;
+    margin:0 auto;
+}
+footer{
+    background:radial-gradient(#EBF5EE 5%, #78A1BB);
+    padding:20px;
+    border-top:1px solid black;
+    font-family: 'montserrat';
+    text-align: center;
+    margin-top:20px;
+
+}
+.twitter, .facebook{
+    border-radius: 50px;
+    width: 25px;
+    border:1px solid #000;
+    margin-bottom:-10px;
+    padding:2px;
+    margin-right:5px;
+
+}
+.hero{
+    max-width: 80%;
+    margin-top:5%;
+    margin-left:9%;
+    margin-bottom: 10%;
+    box-shadow: 2px 5px 10px #283044;
+
+}
+.weatherAPI{
+    display: block;
+    padding-left:2%;
+    padding-right: 3%;
+    padding-bottom:2%;
+    box-shadow: 2px 5px 10px #283044;
+    background-color:white;
+    font-size: 1.3em;
+    margin:0 auto;
+    margin-bottom:5%;
+    max-width: 90%;
+}   
+.weatherSumArea{
+    padding:2px 13px;
+    background:radial-gradient(#BFA89E, #8B786D);
+    border:4px solid #283044;
+    font-family:"Montserrat";
+    margin-top:5%;
+    color:white;
+    max-width: 60%;
+    margin:0 auto;
+}
+.forecast{
+    text-align: center;
+    font-size: .6em;
+    display:block;
+    margin-left:5%;
+    max-width: 30%;
+    margin-bottom: 3%;
+    color:white; 
+    font-family:"Montserrat";
+
+}
+.forecast th{
+    color:white;
+    background-color: #283044;
+    box-shadow: none;
+}
+.forecast img{
+    height: 90px;
+    width: 90px;
+}
+.weatherHeadImg{
+    position: absolute;
+    max-width:55px;
+    box-shadow: 2px 10px 20px #283044;
+    margin-top:-2%;
+    border-radius:100%;
+    padding:15px;
+    background-color: #78A1BB;
+    border:2px solid #283044;   
+
+}
+.weatherHeadImg2{
+    margin:0 auto;
+    display: block;
+    max-width: 80%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border:1px solid black;
+}
+.wh{
+    font-size: 1.6em;
+    font-family:"Playfair display";
+    text-shadow: 2px 2px 2px #ccc;
+    border-bottom:2px solid #888;
+    padding-top:5%;
+
+}
+.clearfix:after {
+    content: "";
+    display: table;
+       clear: both;
+}
+table img{
+    max-width: 300px;
+    max-height: 300px;
+    padding:10px;
+}
+table .forecast{
+    box-shadow: 2px 10px 20px #283044;
+    padding-bottom: 15px;
+}
+.spotlight table{
+    border:1px solid black;
+    box-shadow: 2px 5px 10px #283044;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    background-color: white;
+    margin:0 auto;
+    width:80%;
+    
+ 
+}
+td{
+    text-align:center;
+    padding:5px;
+    font-size: 1.5em;
+    font-family:'Montserrat';
+}
+th{
+    font-size:1.7em;
+    padding:5px;
+}
+.busTitle{
+    text-align: center;
+    font-family: 'Playfair display';
+    text-shadow:1px 2px 1px #ccc;
+    border:2px solid #888;
+    margin-left:25%;
+    margin-right:25%;
+    background:radial-gradient(white 40%,#283044);
+    border-radius:50px;
+}
+table a{
+    color:#BFA89E;
+    font-size: .9em;
+}
+table a:hover{
+    color:white;
+    padding:10px 10px;
+    border-radius: 5px;
+}
+.eventCard h2{
+    font-size: 1.4em;
+}
+.eventCard{
+    text-align:center;
+    box-shadow: 2px 5px 10px #283044;
+    width:77%;
+    padding:10px 10px;
+    background-color: white;
+    padding-top:30px;
+    font-size: 1.2em;
+    margin:0 auto;
+}
+.eventCard h2{
+    border-top:2px solid #888;
+    border-bottom:2px solid #888;
+    text-shadow: 2px 2px 2px #ccc;
+    padding:8px 8px; 
+    display:block;
+    font-size: 1.8em;
+}
+.loganImg{
+    max-width: 80%;
+
+
+}
+#mission{
+    background-color: white;
+    border:2px solid black;
+    padding:30px;
+    padding-top:20px;
+    margin-top:55%;
+    display: block;
+    margin:0 auto;
+    max-width: 80%;
+    font-size: 1.5em;
+    font-family:'Montserrat';
+    margin-bottom:5%;
+}
+#mission h2{
+    margin-top:0;
+    border-bottom:2px solid #888;
+    text-shadow:0px 1px 2px #BFA89E;
+    font-size: 1.4em;
+}
+#mission ul{
+    padding-top:10px;
+    padding-bottom: 10px;
+    background:radial-gradient(white, #78A1BB);
+}
+.join{
+    border:2px solid black;
+    padding:10px;
+    background:radial-gradient(#ccc, #8B786D);
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    box-shadow:2px 5px 20px #283044;
+    border-radius: 5px;
+    margin-bottom:5%;
+}
+.join a:hover{
+    border-radius: 5px;
+    padding:4px;
+}
+.join h2{
+    border-top:2px solid #888;
+    border-bottom: 2px solid #888;
+    text-align: center;
+    padding:5px;
+    text-shadow:0px 1px 2px white;
+}
+.join p{
+    padding:10px
+}
+.join ul li{
+ margin-left:-10px;
+}
+.joinTemple{
+    margin-top:9%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.temple2{
+    display:block;
+    max-width:90%;
+    border:10px outset #78A1BB;
+    border-radius:5px;
+    margin: 0 auto;
+}
+

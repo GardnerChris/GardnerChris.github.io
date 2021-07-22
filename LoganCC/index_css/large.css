@@ -1,0 +1,126 @@
+@media only screen and (min-width: 60rem) {
+
+    header h1, header p{
+        margin-left:8%;
+    }
+    .hero{
+        max-width: 100%;
+        margin:0 auto;
+        display: block;
+        margin-top:2em;
+    }
+    #navBar2{
+        font-size: 1.1em;
+    }
+    h2.busTitle{
+        padding-left:9%;
+        margin: 5% 35% 2% 35%;
+        background:radial-gradient(white 40%,#283044);
+        border-radius:50px;
+    }
+
+    .spotlight{
+        display:flex;
+        flex: 1 1 100%;
+        justify-content: space-evenly;
+        gap:2%;
+        max-width: 70%;    
+        margin:0 auto;
+        margin-bottom:4%;
+    }
+
+    th.aggie, th.bbCC, th.funPark{
+        padding-top:5%;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .spotlight tr{
+        float: none;
+        font-size: 1em;
+    
+    }
+    tr{
+        font-size:.8em;
+        text-align: center;
+    }
+    table img{
+        margin: 0 auto;
+    }
+    .eventWeather{
+        display: flex;
+        flex:1 1 100%;
+        justify-content: center;
+        gap:5%;
+
+    }
+    .eventCard{
+        max-width: 32%;
+        margin:0;
+        margin-bottom:50px;
+        padding-bottom:0;
+    }
+    .logo{
+        max-width: 100%;
+    }
+    .loganImg{
+        max-width: 378px;
+        float:none;
+    }
+    .wh{
+        margin-top: 55px;
+        border-top:2px solid #888;
+        padding-top:10px;
+        padding-bottom: 10px;
+        margin-right:65%;
+    }
+    div.weatherAPI{
+        width:600px;
+        margin:0;
+        height: 400px;
+        padding-bottom: 25px;
+    }
+    .weatherHeadImg{
+        float:left;
+        z-index:1;
+        margin-top:-76px;
+        max-width: 53px;
+    }
+    .weatherHeadImg2{
+        display:block;
+        position: relative;
+        top:-104px;
+        max-width: 58%;
+        left:50px;
+    }
+    .forecast{
+        position: relative;
+        top:-193px;
+        margin:0 auto;
+        font-size: 1em;
+        left:4%;
+    }
+    .weatherSumArea{
+        margin-top:28px;
+        font-size: .8em;
+        
+    }
+    #mission{
+        max-width: 77%;
+        font-size: 1.1em;
+    }
+    .joinTemple{
+        display:flex;
+        max-width: 81%;
+        gap:5%;
+        justify-content: space-evenly;
+    }
+    .join{
+        max-width: 35%;
+        padding-bottom:38px
+    }
+    .temple2{
+        width: 700px;
+        height: 370px;
+    }
+    
+}
